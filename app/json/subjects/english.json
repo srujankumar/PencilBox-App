@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Artha ",
+        "id": "artha",
+        "exec": "artha", 
+        "keywords":["",""] 
+    },
+    {
+        "name": "Hangman Game",
+        "id": "khangman",
+        "exec": "khangman",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Word Quiz",
+        "id": "kwordquiz",
+        "exec": "kwordquiz",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Stardict",
+        "id": "stardict",
+        "exec": "stardict",
+        "keywords":["",""] 
+    }
+]

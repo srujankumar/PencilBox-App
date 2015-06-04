@@ -1,0 +1,31 @@
+<div class="home-view view">
+    <div class="header-content">
+        <div class="logo-header">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="search">
+            <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+            <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <div class="main-content">
+    <div class="subjects-container">
+        <h2 id="choose">Choose a subject</h2>
+        <div class="clearfix"></div>
+        <div ng-repeat="subject in subjects">
+            <a href="#/subjects/{{subject.id | lowercase}}{{subject.topics_present ? '/subsections': ''}}">
+                <div class="blocks" style="background-color:{{subject.color}};background-image:url('images/subjects/{{subject.id}}.png')">
+                    <label>{{subject.name}}</label>
+                </div>
+            </a>
+
+        </div>
+        <!--<div ng-repeat="subject in subjects" id="buttons-{{subject.name | lowercase}}-block">
+            <a href="#/subjects/{{subject.topics_present ? '': 'single/'}}{{subject.name}}" class="phy" id="{{subject.name | lowercase}}">{{subject.name}}</a>
+        </div>-->
+
+    </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Stellarium",
+        "id": "stellarium",
+        "exec": "stellarium",
+        "keywords":["",""]
+    },
+    {
+        "name": "Celestia",
+        "id": "celestia",
+        "exec": "celestia",
+        "keywords":["",""]
+    },
+    {
+        "name": "My Solar System",
+        "id": "my-solar-system",
+        "exec": "java -jar /opt/phet/physics/my-solar-system_en.jar",
+        "keywords":["",""]
+    }
+]

@@ -1,4 +1,4 @@
-describe('Subject Service', function(){
+describe('Subjects Service', function(){
     "use strict";
 
     var Subjects, httpBackend;
@@ -17,7 +17,7 @@ describe('Subject Service', function(){
 
     });
 
-    it('Should return response', function(){
+    it('should return response', function(){
         var result = Subjects.query();
         expect(result).toBeDefined();
     });

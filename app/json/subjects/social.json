@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Stellarium ",
+        "id": "stellarium",
+        "exec": "stellarium", 
+        "keywords":["",""] 
+    },
+    {
+        "name": "Celestia",
+        "id": "celestia",
+        "exec": "celestia",
+        "keywords":["",""] 
+    },
+    {
+        "name": "OpenTeacher",
+        "id": "openteacher",
+        "exec": "openteacher",
+        "keywords":["",""] 
+    },
+    {
+        "name": "K Geography",
+        "id": "kgeography",
+        "exec": "kgeography",
+        "keywords":["",""] 
+    }
+]

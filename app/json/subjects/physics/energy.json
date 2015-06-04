@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Energy Forms and Changes",
+        "id": "energy-froms-and- charges",
+        "exec": "java -jar /opt/phet/physics/energy-forms-and-changes_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Energy stake Park",
+        "id": "energy-skate-park",
+        "exec": "java -jar /opt/phet/physics/energy-skate-park_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Energy stake Park:Basics",
+        "id": "energy-skate-park-basics",
+        "exec": "java -jar /opt/phet/physics/energy-skate-park-basics_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Masses & Springs",
+        "id": "masses-springs",
+        "exec": "java -jar /opt/phet/physics/mass-spring-lab_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "The Ramp",
+        "id": "the-ramp",
+        "exec": "java -jar /opt/phet/physics/the-ramp_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Nuclear Fission",
+        "id": "nuclear-fission",
+        "exec": "java -jar /opt/phet/physics/nuclear-fission_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Ballons & Buoyancy",
+        "id": "buoyancy",
+        "exec": "java -jar /opt/phet/physics/balloons-and-buoyancy_en.jar",
+        "keywords":["",""] 
+    }
+]

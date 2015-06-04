@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Human Atlas ",
+        "id": "human-atlas",
+        "exec": "/opt/applications-bin/humanatlas",
+        "keywords":["",""]
+    },
+    {
+        "name": "Gene Expression - The Basics",
+        "id": "gene-expression-basics",
+        "exec": "java -jar /opt/phet/biology/gene-expression-basics_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Gene Machine: The Lac Operon",
+        "id": "gene-expression-lac-operon",
+        "exec": "java -jar /opt/phet/biology/gene-machine-lac-operon_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Membrane Channels",
+        "id": "membrane-channel",
+        "exec": "java -jar /opt/phet/biology/membrane-channels_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Molecular Motors",
+        "id": "molecular-motors",
+        "exec": "java -jar /opt/phet/biology/molecular-motors_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Natural Selection",
+        "id": "natural-selection",
+        "exec": "java -jar /opt/phet/biology/natural-selection_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Simplified MRI",
+        "id": "mri",
+        "exec": "java -jar /opt/phet/biology/mri_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Streching DNA",
+        "id": "streching dna",
+        "exec": "java -jar /opt/phet/biology/stretching-dna_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Eating & Exercise",
+        "id": "eating-exercise",
+        "exec": "java -jar /opt/phet/biology/eating-and-exercise_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Neuron",
+        "id": "neuron",
+        "exec": "java -jar /opt/phet/biology/neuron_en.jar",
+        "keywords":["",""]
+    }
+]

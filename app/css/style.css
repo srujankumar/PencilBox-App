@@ -1,0 +1,93 @@
+.view {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.header-content {
+    margin: auto;
+}
+.main-content {
+    height: auto;
+}
+.clearfix {
+    clear: both;
+}
+
+.logo-header {
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+}
+
+.logo-header img {
+    width: 280px;
+}
+
+.home-view .header-content .search {
+    width: 620px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+.home-view .header-content .search input {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    height: 56px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid #656467;
+    padding-left: 10px;
+}
+
+.home-view .header-content .search button {
+    display: inline-block;
+    float: left;
+    background-image: url("../images/search.png");
+    background-size: 85px 60px;
+    width: 80px;
+    height: 60px;
+    border:none;
+    background-position: -5px -1px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+}
+
+.main-content .subjects-container {
+    width: 900px;
+    margin: auto;
+    display: block;
+}
+
+.main-content .subjects-container h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 20px 0px 0px 20px;
+}
+
+.main-content .blocks {
+    float: left;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: center;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-content .blocks label {
+    display: inline-block;
+    padding-top: 205px;
+}

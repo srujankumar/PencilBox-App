@@ -1,4 +1,4 @@
-describe('PencilBox App', function(){
+describe('SubjectList Controller', function(){
 
   /*var scope, Subjects, defer, data = [ "Physics", "Chemistry", "Biology"];
 
@@ -50,7 +50,7 @@ describe('PencilBox App', function(){
 
   }));
 
-  it('should list all the subjects', function(){
+  it('should return subjects', function(){
     expect(scope.subjects).toBeDefined();
   });
 

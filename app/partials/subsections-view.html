@@ -1,0 +1,37 @@
+<div class="subsection-view view">
+    <div class="header-content">
+        <div class="logo-header">
+            <a href="#/subjects">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div ng-repeat="subject in subjects" class="header-icon">
+            <a ng-if="isNotCurrentSubject(subject.id)" class="icon"
+               style="background-image: url('images/subjects/{{subject.id}}.png')"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}"></a>
+            <a ng-if="isCurrentSubject(subject.id)" class="icon"
+               style="background-color: {{subject.color}};background-image: url('images/subjects/{{subject.id}}.png')"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}"></a>
+            <a ng-if="isNotCurrentSubject(subject.id)" class="icon-text">{{subject.name}}</a>
+            <a ng-if="isCurrentSubject(subject.id)" class="icon-text" style="color:{{subject.color}}">{{subject.name}}</a>
+        </div>
+        <div class="search">
+            <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+            <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="main-content">
+        <div class="subjects-container">
+            <h2 id="choose">Choose a topic</h2>
+            <div class="clearfix"></div>
+            <div ng-repeat="topic in topics">
+                <a href="#/subjects/{{current_subjectId}}/{{topic.id}}">
+                    <div class="blocks" style="background-color: {{getSubjectColor()}};background-image:url('images/topics/{{topic.id}}.png')">
+                        <label>{{topic.name}}</label>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

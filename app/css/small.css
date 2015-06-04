@@ -1,0 +1,53 @@
+.header-icon {
+    width: 80px;
+}
+
+.header-icon .icon {
+    height: 50px;
+    width: 50px;
+    background-size: 30px 30px;
+    border-radius: 25px;
+    margin: 0px 15px 5px 15px;
+}
+
+.header-icon .icon-text {
+    font-size: 16px;
+}
+
+.subsection-view .header-content {
+    height: 210px;
+}
+
+.subsection-view .header-content .search {
+    padding: 10px;
+}
+
+.subsection-view .header-content .search input {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.subsection-view .header-content .search button {
+    background-size: 70px 49px;
+    width: 65px;
+    height: 49px;
+    background-position: -5px -1px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -10px;
+}
+
+.subsection-view .main-content .blocks {
+    width: 140px;
+    height: 140px;
+    margin: 15px;
+    padding: 5px;
+    background-size: 70px 70px;
+    font-size: 14px;
+}
+
+.subsection-view .main-content .blocks label {
+    padding-top: 120px;
+}

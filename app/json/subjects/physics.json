@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Motion",
+        "id": "motion"
+    },
+    {
+        "name": "Waves",
+        "id": "waves"
+    },
+    {
+        "name": "Planetarium",
+        "id": "planetarium"
+    },
+    {
+        "name": "Energy",
+        "id": "energy"
+    },
+    {
+        "name": "Sound",
+        "id": "sound"
+    },
+    {
+        "name": "Quantum Phenomena",
+        "id": "qphenomena"
+    },
+    {
+        "name": "Heat",
+        "id": "heat"
+    },
+    {
+        "name": "Light",
+        "id": "light"
+    },
+    {
+        "name": "Radiation",
+        "id": "radiation"
+    },
+    {
+        "name": "Electricity",
+        "id": "electricity"
+    },
+    {
+        "name": "Magnets",
+        "id": "magnet"
+    },
+    {
+        "name": "Circuits",
+        "id": "circuit"
+    }
+]
