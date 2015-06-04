@@ -90,4 +90,5 @@
 .main-content .blocks label {
     display: inline-block;
     padding-top: 205px;
+    cursor: auto;
 }

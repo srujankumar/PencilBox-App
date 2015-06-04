@@ -10,6 +10,10 @@ pencilBoxApp.config(['$routeProvider',function($routeProvider){
     templateUrl: 'partials/subsections-view.html',
     controller: 'SubSectionListController'
   })
+  .when('/subjects/:subjectId', {
+    templateUrl: 'partials/apps-view.html',
+    controller: 'AppListController'
+  })
   .otherwise({
     redirectTo: '/subjects'
   });
