@@ -1,0 +1,54 @@
+<div class="topics-view view">
+    <div class="header-content">
+        <div class="logo-header">
+            <a href="#/subjects">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div ng-repeat="subject in subjects" class="header-icon">
+            <a ng-if="isNotCurrentSubject(subject.id)" class="icon"
+               style="background-image: url('images/subjects/{{subject.id}}.png')"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}"></a>
+            <a ng-if="isCurrentSubject(subject.id)" class="icon"
+               style="background-color: {{subject.color}};background-image: url('images/subjects/{{subject.id}}.png')"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}"></a>
+            <a ng-if="isNotCurrentSubject(subject.id)" class="icon-text"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}">{{subject.name}}</a>
+            <a ng-if="isCurrentSubject(subject.id)" class="icon-text" style="color:{{subject.color}}"
+               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}">{{subject.name}}</a>
+        </div>
+        <div class="search">
+            <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+            <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="main-content">
+        <div id="side-menu">
+            <div ng-repeat="topic in topics" class="topics-block">
+                <a ng-if="isCurrentTopic(topic.name)" style="background-image: url('images/blue/b-{{item.id}}.png')"
+                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="img-class"></a>
+                <a ng-if="isNotCurrentTopic(topic.name)" style="background-image: url('images/grey/g-{{item.id}}.png')"
+                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="img-class"></a>
+                <div class="topics-block-text">
+                    <a ng-if="isCurrentTopic(item.name)" href="#/subjects/{{current_subject}}/{{item.name}}"
+                       class="text-class selected-topic">{{topic.name}}</a>
+                    <a ng-if="isNotCurrentTopic(item.name)" href="#/subjects/{{current_subject}}/{{item.name}}"
+                       class="text-class">{{topic.name}}</a>
+                </div>
+                <hr class="lines">
+            </div>
+        </div>
+        <div class="subjects-container">
+            <h2 id="choose">Choose a topic</h2>
+            <div class="clearfix"></div>
+            <div ng-repeat="app in apps">
+                <a ng-click="invokeCommand({{app.exec}})">
+                    <div class="blocks" style="background-color: {{getSubjectColor()}};background-image:url('images/topics/{{topic.id}}.png')">
+                        <label>{{topic.name}}</label>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

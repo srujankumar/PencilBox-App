@@ -1,14 +1,14 @@
-.apps-view .header-content {
+.topics-view .header-content {
     background-color: #f1f2f2;
 }
 
-.apps-view .header-content .search {
+.topics-view .header-content .search {
     display: inline-block;
     padding: 20px;
     float: right;
 }
 
-.apps-view .header-content .search input {
+.topics-view .header-content .search input {
     display: inline-block;
     float: left;
     border-radius: 10px 0px 0px 10px;
@@ -17,7 +17,7 @@
     padding-left: 10px;
 }
 
-.apps-view .header-content .search button {
+.topics-view .header-content .search button {
     display: inline-block;
     float: left;
     background-image: url("../images/search.png");
@@ -27,6 +27,6 @@
     margin-left: -10px;
 }
 
-.apps-view .main-content .subjects-container {
+.topics-view .main-content .subjects-container {
     width: 80%;
 }

@@ -33,10 +33,10 @@ pencilBoxApp.controller('AppListController', ['$scope', '$routeParams', 'Subject
       CommandApi.invokeCommand(command);
     };
     $scope.isCurrentSubject = function(subject) {
-      return $scope.current_subject.toLowerCase() == subject.toLowerCase();
+      return $scope.current_subject.toLowerCase() === subject.toLowerCase();
     };
     $scope.isNotCurrentSubject = function(subject) {
-      return $scope.current_subject.toLowerCase() != subject.toLowerCase();
+      return $scope.current_subject.toLowerCase() !== subject.toLowerCase();
     };
     $scope.getSubjectColor = function() {
       for(var index=0; index < $scope.subjects.length; index++){
@@ -44,5 +44,29 @@ pencilBoxApp.controller('AppListController', ['$scope', '$routeParams', 'Subject
           return $scope.subjects[index].color;
         }
       }
+    };
+  }]);
+
+pencilBoxApp.controller('TopicListController', ['$scope', '$routeParams', 'Subjects',
+  function($scope, $routeParams, Subjects) {
+    $scope.subjects = Subjects.query();
+    $scope.topics = Subjects.query({ subject: $routeParams.subjectId });
+    $scope.apps = Subjects.query({ subject: $routeParams.subjectId, topic: $routeParams.topicId });
+    $scope.current_subject = $routeParams.subjectId;
+    $scope.current_topic = $routeParams.topicId;
+    $scope.isCurrentTopic = function(topic) {
+      return $scope.current_topic.toLowerCase() === topic.toLowerCase();
+    };
+    $scope.isNotCurrentTopic = function(topic) {
+      return $scope.current_topic.toLowerCase() !== topic.toLowerCase();
+    };
+    $scope.isCurrentSubject = function(subject) {
+      return $scope.current_subject.toLowerCase() === subject.toLowerCase();
+    };
+    $scope.isNotCurrentSubject = function(subject) {
+      return $scope.current_subject.toLowerCase() !== subject.toLowerCase();
+    };
+    $scope.invokeCommand = function(command) {
+      CommandApi.invokeCommand(command);
     };
   }]);

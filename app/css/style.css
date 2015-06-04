@@ -23,6 +23,30 @@
     width: 280px;
 }
 
+.header-icon {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.header-icon .icon {
+    display: inline-block;
+    float: left;
+    background-color: #6d6e71;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.header-icon .icon-text {
+    font-family: sans-serif;
+    color: #6d6e71;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+}
+
 .home-view .header-content .search {
     width: 620px;
     margin: auto;

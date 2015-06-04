@@ -14,15 +14,17 @@
     font-size: 16px;
 }
 
-.subsection-view .header-content {
+.subsection-view .header-content, .apps-view .header-content, .topics-view .header-content {
     height: 210px;
 }
 
-.subsection-view .header-content .search {
+.subsection-view .header-content .search, .apps-view .header-content .search,
+.topics-view .header-content .search {
     padding: 10px;
 }
 
-.subsection-view .header-content .search input {
+.subsection-view .header-content .search input, .apps-view .header-content .search input,
+.topics-view .header-content .search input {
     width: 250px;
     height: 45px;
     border-radius: 10px 0px 0px 10px;
@@ -30,7 +32,8 @@
     padding-left: 10px;
 }
 
-.subsection-view .header-content .search button {
+.subsection-view .header-content .search button, .apps-view .header-content .search button,
+.topics-view .header-content .search button {
     background-size: 70px 49px;
     width: 65px;
     height: 49px;
@@ -39,7 +42,7 @@
     margin-left: -10px;
 }
 
-.subsection-view .main-content .blocks {
+.subsection-view .main-content .blocks, .apps-view .main-content .blocks, .topics-view .main-content .blocks {
     width: 140px;
     height: 140px;
     margin: 15px;
@@ -48,6 +51,7 @@
     font-size: 14px;
 }
 
-.subsection-view .main-content .blocks label {
+.subsection-view .main-content .blocks label, .apps-view .main-content .blocks label,
+.topics-view .main-content .blocks label {
     padding-top: 120px;
 }
