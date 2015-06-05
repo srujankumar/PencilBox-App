@@ -28,9 +28,9 @@
             <h2 id="choose">Choose an App</h2>
             <div class="clearfix"></div>
             <div ng-repeat="app in apps">
-                <a ng-click="invokeCommand(item.exec)">
-                    <div class="blocks" style="background-color: {{getSubjectColor()}};background-image:url('images/{{current_subject}}/{{app.id}}.png')">
-                        <label>{{app.name}}</label>
+                <a ng-click="invokeCommand(app.exec)">
+                    <div class="blocks" style="background-image:url('images/{{current_subject}}/{{app.id}}.png')">
+                        <label style="color: {{getSubjectColor()}};">{{app.name}}</label>
                     </div>
                 </a>
             </div>

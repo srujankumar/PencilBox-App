@@ -1,5 +1,6 @@
 .topics-view .header-content {
     background-color: #f1f2f2;
+    border-bottom: 1px solid;
 }
 
 .topics-view .header-content .search {
@@ -27,6 +28,17 @@
     margin-left: -10px;
 }
 
+.topics-view .main-content {
+    width: 100%;
+}
+
 .topics-view .main-content .subjects-container {
-    width: 80%;
+    display: inline-block;
+    float: left;
+}
+
+.topics-view .main-content .blocks {
+    border-radius: 15px;
+    border: 1px solid #000000;
+    padding: 0px;
 }

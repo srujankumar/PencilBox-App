@@ -27,6 +27,17 @@
     margin-left: -10px;
 }
 
+.apps-view .main-content {
+    width: 100%;
+}
+
 .apps-view .main-content .subjects-container {
     width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.apps-view .main-content .blocks {
+    border-radius: 15px;
+    border: 1px solid #000000;
+    padding: 0px;
 }

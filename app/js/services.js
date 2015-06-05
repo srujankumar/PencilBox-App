@@ -5,3 +5,10 @@ pencilBoxApp.factory('Subjects', ['$resource',
       query: {method:'GET', isArray:true }
     });
   }]);
+
+pencilBoxApp.factory('Apps', ['$resource',
+  function($resource){
+    return $resource('json/all.json', {}, {
+      query: {method:'GET', isArray:true }
+    });
+  }]);

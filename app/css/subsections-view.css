@@ -27,6 +27,11 @@
     margin-left: -10px;
 }
 
+.subsection-view .main-content {
+    width: 100%;
+}
+
 .subsection-view .main-content .subjects-container {
     width: 80%;
+    margin: 0 10% 0 10%;
 }

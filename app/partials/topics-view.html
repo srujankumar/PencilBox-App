@@ -24,28 +24,31 @@
     </div>
     <div class="clearfix"></div>
     <div class="main-content">
-        <div id="side-menu">
+        <div class="side-menu">
             <div ng-repeat="topic in topics" class="topics-block">
-                <a ng-if="isCurrentTopic(topic.name)" style="background-image: url('images/blue/b-{{item.id}}.png')"
-                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="img-class"></a>
-                <a ng-if="isNotCurrentTopic(topic.name)" style="background-image: url('images/grey/g-{{item.id}}.png')"
-                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="img-class"></a>
+
+                <a ng-if="isCurrentTopic(topic.id)" style="background-image: url('images/topics/blue/b-{{topic.id}}.png')"
+                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="topics-block-img"></a>
+                <a ng-if="isNotCurrentTopic(topic.id)" style="background-image: url('images/topics/grey/g-{{topic.id}}.png')"
+                   href="#/subjects/{{current_subject}}/{{topic.id}}" class="topics-block-img"></a>
+
                 <div class="topics-block-text">
-                    <a ng-if="isCurrentTopic(item.name)" href="#/subjects/{{current_subject}}/{{item.name}}"
-                       class="text-class selected-topic">{{topic.name}}</a>
-                    <a ng-if="isNotCurrentTopic(item.name)" href="#/subjects/{{current_subject}}/{{item.name}}"
-                       class="text-class">{{topic.name}}</a>
+                    <a ng-if="isCurrentTopic(topic.id)" href="#/subjects/{{current_subject}}/{{topic.id}}"
+                       style="color: {{getSubjectColor()}}">{{topic.name}}</a>
+                    <a ng-if="isNotCurrentTopic(topic.id)" href="#/subjects/{{current_subject}}/{{topic.id}}"> {{topic.name}}</a>
                 </div>
+
                 <hr class="lines">
             </div>
         </div>
+
         <div class="subjects-container">
-            <h2 id="choose">Choose a topic</h2>
+            <h2 id="choose">Choose an App</h2>
             <div class="clearfix"></div>
             <div ng-repeat="app in apps">
-                <a ng-click="invokeCommand({{app.exec}})">
-                    <div class="blocks" style="background-color: {{getSubjectColor()}};background-image:url('images/topics/{{topic.id}}.png')">
-                        <label>{{topic.name}}</label>
+                <a ng-click="invokeCommand(app.exec)" href="">
+                    <div class="blocks" style="background-image:url('images/{{current_subject}}/{{app.id | lowercase}}.png')">
+                        <label style="color: {{getSubjectColor()}}">{{app.name}}</label>
                     </div>
                 </a>
             </div>

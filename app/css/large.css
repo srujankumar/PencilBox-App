@@ -43,8 +43,7 @@
     margin-left: -10px;
 }
 
-.subsection-view .main-content .blocks, .apps-view .main-content .blocks,
-.topics-view .main-content .blocks {
+.subsection-view .main-content .blocks {
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -53,7 +52,60 @@
     font-size: 20px;
 }
 
-.subsection-view .main-content .blocks label, .apps-view .main-content .blocks label,
-.topics-view .main-content .blocks label {
+.subsection-view .main-content .blocks label {
     padding-top: 170px;
+}
+
+.topics-view .main-content .blocks {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 20px 20px 50px 20px;
+    background-size: 200px 200px;
+    font-size: 20px;
+}
+
+.topics-view .main-content .blocks label {
+    padding-top: 210px;
+}
+
+.apps-view .main-content .blocks {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 20px 20px 50px 20px;
+    background-size: 200px 200px;
+    font-size: 20px;
+}
+
+.apps-view .main-content .blocks label {
+    padding-top: 210px;
+}
+
+.topics-view .main-content .subjects-container {
+    width: 65%;
+    margin: 0 8% 0 8%;
+}
+
+.side-menu
+{
+    width: 18%;
+}
+
+.topics-block .topics-block-img
+{
+    background-size: 60px 60px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+
+.topics-block-text {
+    height: 60px;
+    width: 100px;
+}
+
+.topics-block .topics-block-text a {
+    font-size: 19px;
+    padding-top: 40px;
 }

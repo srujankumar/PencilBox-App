@@ -66,6 +66,24 @@ pencilBoxApp.controller('TopicListController', ['$scope', '$routeParams', 'Subje
     $scope.isNotCurrentSubject = function(subject) {
       return $scope.current_subject.toLowerCase() !== subject.toLowerCase();
     };
+    $scope.getSubjectColor = function() {
+      for(var index=0; index < $scope.subjects.length; index++){
+        if( $scope.subjects[index].id === $scope.current_subject){
+          return $scope.subjects[index].color;
+        }
+      }
+    };
+    //QtProcess API calling
+    $scope.invokeCommand = function(command) {
+      CommandApi.invokeCommand(command);
+    };
+  }]);
+
+pencilBoxApp.controller('SearchResultController', ['$scope', '$routeParams', 'Subjects', 'Apps',
+  function($scope, $routeParams, Subjects, Apps) {
+    $scope.subjects = Subjects.query();
+    $scope.apps = Apps.query();
+    $scope.queryString = $routeParams.keyword;
     $scope.invokeCommand = function(command) {
       CommandApi.invokeCommand(command);
     };

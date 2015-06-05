@@ -1,0 +1,40 @@
+.side-menu
+{
+    float: left;
+    display: inline-block;
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+
+.topics-block {
+    width: 100%;
+    display: inline-block;
+}
+
+.topics-block .topics-block-img
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.topics-block-text {
+    display: inline-block;
+}
+
+.topics-block .topics-block-text a {
+    text-decoration: none;
+    color: #6d6e71;
+    position: relative;
+    float: left;
+}
+
+.lines
+{
+    color: #a7a9ac;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+}

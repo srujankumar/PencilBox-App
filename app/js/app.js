@@ -18,6 +18,10 @@ pencilBoxApp.config(['$routeProvider',function($routeProvider){
     templateUrl: 'partials/topics-view.html',
     controller: 'TopicListController'
   })
+  .when('/search/:keyword', {
+    templateUrl: 'partials/search-results-view.html',
+    controller: 'SearchResultController'
+  })
   .otherwise({
     redirectTo: '/subjects'
   });
