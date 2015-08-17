@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Photoelectric Effect",
+        "id": "photoelectric-effect",
+        "exec": "java -jar /opt/phet/chemistry/photoelectric_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Quantum Tunneling and Wave Packets",
+        "id": "quantum-tunneling- wave",
+        "exec": "java -jar /opt/phet/physics/quantum-tunneling_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Quantum Bound States",
+        "id": "quantum-bound-states",
+        "exec": "java -jar /opt/phet/physics/bound-states_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Quantum Wave Interference ",
+        "id": "wave-interference",
+        "exec": "java -jar /opt/phet/chemistry/quantum-wave-interference_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Lasers",
+        "id": "lasers",
+        "exec": "java -jar /opt/phet/physics/lasers_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Neon Lights & Other Discharge Lamps",
+        "id": "neon-lights-and-other-discharge-lamps",
+        "exec": "java -jar /opt/phet/chemistry/discharge-lamps_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Fourier: Making Waves",
+        "id": "fourier",
+        "exec": "java -jar /opt/phet/physics/fourier_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Simplified MRI",
+        "id": "mri",
+        "exec": "java -jar /opt/phet/biology/mri_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Models of the Hydrogen Atom",
+        "id": "models-of-hydrogen-atom",
+        "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Stern-Gerlach Experiment",
+        "id": "stern-gerlach",
+        "exec": "java -jar /opt/phet/physics/stern-gerlach_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Conductivity",
+        "id": "conductivity",
+        "exec": "java -jar /opt/phet/physics/conductivity_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Semiconductors ",
+        "id": "semi-conductors",
+        "exec": "java -jar /opt/phet/physics/semiconductor_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Davisson-Germer: Electron Diffraction",
+        "id": "davission-germer",
+        "exec": "java -jar /opt/phet/chemistry/davisson-germer_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Rutherford Scattering",
+        "id": "rutherfford-scattering",
+        "exec": "java -jar /opt/phet/chemistry/rutherford-scattering_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Double Wells and Covalent Bonds",
+        "id": "covalent-bonds",
+        "exec": "java -jar /opt/phet/chemistry/covalent-bonds_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Band Structure",
+        "id": "band-structure",
+        "exec": "java -jar /opt/phet/physics/band-structure_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Beta Decay",
+        "id": "beta-decay",
+        "exec": "java -jar /opt/phet/chemistry/beta-decay_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Alpha Decay",
+        "id": "alpha-decay",
+        "exec": "java -jar /opt/phet/chemistry/alpha-decay_en.jar",
+        "keywords":["",""] 
+    }
+]

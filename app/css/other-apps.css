@@ -1,0 +1,83 @@
+.other-apps-view .header-content {
+    background-color: #f1f2f2;
+    height:110px;
+    width:100%;
+    border-bottom:1px solid #000;
+}
+.other-apps-view .header-content .main-logo {
+	width: 250px;
+    float: left;
+}
+
+.other-apps-view .header-content .search {
+    display: inline-block;
+    margin-left: 200px;
+    padding: 27px;
+}
+
+.other-apps-view .header-content .search input {
+    display: inline-block;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    font-family: sans-serif;
+    border: 1px solid #656467;
+    padding-left: 10px;
+    width: 440px;
+    height: 45px;
+    font-size: 21px;
+}
+.other-apps-view .header-content .search button {
+    display: inline-block;
+    float: left;
+    background-image: url("../images/search.png");
+    border: none;
+    background-position: -5px -1px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+    background-size: 80px 55px;
+    width: 75px;
+    height: 49px;
+}
+.other-app-container {
+    width:70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.other-app-container .other-app-container-header {
+    height: 75px;
+    border-bottom: 1px solid;
+    background-color: #f1f2f2;
+}
+.other-app-container-header img {
+    width: 56px;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.other-app-container-header .container-name {
+    font-size: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.app-details {
+    display: inline-block;
+    margin :2px 30px;
+    padding-top: 20px;
+}
+.app-details img {
+    background-color: #939598;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

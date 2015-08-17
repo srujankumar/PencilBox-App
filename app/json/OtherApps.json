@@ -1,0 +1,12 @@
+[
+	{
+		"id" : "chemical-colors",
+		"name" : "Chemical Colors",
+		"type" : "apps"
+	},
+	{
+		"id" : "play-with-equations",
+		"name" : "Play with equations",
+		"type" : "apps"
+	}
+]

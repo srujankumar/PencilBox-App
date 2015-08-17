@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Magnet and Compass",
+        "id": "magnets-and- compass",
+        "exec": "java -jar /opt/phet/physics/magnet-and-compass_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Magnets and Electromagnets",
+        "id": "magnets-and-electromagnets",
+        "exec": "java -jar /opt/phet/physics/magnets-and-electromagnets_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Faraday's Electromagnetic Lab",
+        "id": "faradays-electromagnetic-lab",
+        "exec": "java -jar /opt/phet/physics/faraday_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Radio Waves & Electromagnetic Fields",
+        "id": "radio-waves",
+        "exec": "java -jar /opt/phet/physics/radio-waves_en.jar",
+        "keywords":["",""]   
+    }
+]

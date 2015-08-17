@@ -1,30 +1,60 @@
-<div class="apps-view view">
+<div class="other-apps-view view">
+    <div class="header-content">
+          <a id="link" href="#/otherApps" class="otherApps">
+            <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+            <span class="otherAppText">Other apps</span>
+          </a>
+          <div class="search">
+              <input type="text" ng-model="keyword" placeholder="Search app with subject, topic"/>
+              <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+          </div>
+            <a href="#/grades">
+                <img class="main-logo" src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="other-apps-content">
+          <div class="other-app-container">
+            <div class="other-app-container-header">
+              <img src="images/app.png" class="app-icon"/>
+              <span class="container-name">Applications </span>
+            </div>
+            <div class="apps-list">
+            <!-- <div class="app-details" ng-repeat="app in apps">
+                <img src="images/otherapps/{{app.id}}.png"/>
+                <div class="app-name">
+                  {{app.name}}
+                </div>
+            </div> -->
+          </div>
+          </div>
+          
+        </div>
+        
+</div>
+
+<!-- <div class="apps-view view">
     <div class="header-content">
         <div class="logo-header">
             <a href="#/subjects">
                 <img src="images/logo.png" alt="logo">
             </a>
         </div>
-        <div ng-repeat="subject in subjects" class="header-icon">
-            <a class="icon"
-               style="background-image: url('images/subjects/{{subject.id}}.png')"
-               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}">
-            </a>
-            <a class="icon-text"
-               href="#/subjects/{{subject.id}}{{subject.topics_present ? '/subsections':''}}">{{subject.name}}
-            </a>
-        </div>
         <div class="search">
             <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
             <a href="#/search/{{keyword}}"><button></button></a>
+        </div>
+        <div class="OtherApps">
+          <a id="link" href="#/otherApps" class="otherApps">
+            <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+            <span class="otherAppText">Other apps</span>
+          </a>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="main-content">
         <div class="subjects-container">
-            <h2 id="choose">Apps matching "{{queryString}}"</h2>
             <div class="clearfix"></div>
-            <div ng-repeat="app in apps | filter:queryString">
+            <div ng-repeat="app in apps | filter : {type:'apps'}">
                 <a ng-click="invokeCommand(app.exec)">
                     <div class="blocks" style="background-image:url('images/{{app.subject}}/{{app.id}}.png')">
                         <label style="color: #000000">{{app.name}}</label>
@@ -33,4 +63,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

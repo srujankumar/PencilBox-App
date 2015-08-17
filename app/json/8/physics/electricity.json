@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Balloons and Static Electricity",
+        "id": "balloons-static-energy",
+        "exec": "java -jar /opt/phet/physics/balloons_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Generator",
+        "id": "generator",
+        "exec": "java -jar /opt/phet/physics/generator_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Electric Field Hockey",
+        "id": "electric-field-hockey",
+        "exec": "java -jar /opt/phet/physics/electric-hockey_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Charges and Fields",
+        "id": "charges-and-fields",
+        "exec": "java -jar /opt/phet/physics/charges-and-fields_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Ohm's Law",
+        "id": "ohms-law",
+        "exec": "java -jar /opt/phet/physics/ohms-law_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Battery Voltage",
+        "id": "battery-voltage",
+        "exec": "java -jar /opt/phet/physics/battery-voltage_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Electric Field of Dreams",
+        "id": "electric-field-of- dreams",
+        "exec": "java -jar /opt/phet/physics/efield_en.jar",
+        "keywords":["",""] 
+    }
+]

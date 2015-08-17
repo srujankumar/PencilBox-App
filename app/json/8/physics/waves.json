@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Fourier: Making Waves",
+        "id": "fourier",
+        "exec": "java -jar /opt/phet/physics/fourier_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Microwaves",
+        "id": "microwaves",
+        "exec": "java -jar /opt/phet/physics/microwaves_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Normal Modes",
+        "id": "normal-mode",
+        "exec": "java -jar /opt/phet/physics/normal-modes_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Optical Tweezers and Applications",
+        "id": "optical-tweezers",
+        "exec": "java -jar /opt/phet/physics/optical-tweezers_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Radio Waves & Electromagnetic Fields",
+        "id": "radio-waves",
+        "exec": "java -jar /opt/phet/physics/radio-waves_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Wave Interference",
+        "id": "wave-interference",
+        "exec": "java -jar /opt/phet/physics/wave-interference_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Wave on a String",
+        "id": "wave-on-a-string",
+        "exec": "java -jar /opt/phet/physics/wave-on-a-string_en.jar",
+        "keywords":["",""] 
+    }
+]

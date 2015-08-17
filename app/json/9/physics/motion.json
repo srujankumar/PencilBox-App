@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Freefall Tower",
+        "id": "freefall-tower",
+        "exec": "/opt/applications-bin/freefalltower",
+        "keywords":["",""]
+    },
+    {
+        "name": "Balancing Act",
+        "id": "balancing-act",
+        "exec": "java -jar /opt/phet/physics/balancing-act_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Buoyancy",
+        "id": "buoyancy",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-buoyancy/buoyancy_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Calculus Grapher",
+        "id": "calculus-grapher",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-calculus-grapher/calculus-grapher_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Collision Lab",
+        "id": "collision-lab",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-collision-lab/collision-lab_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Energy stake Park",
+        "id": "energy-skate-park",
+        "exec": "java -jar /opt/phet/physics/energy-skate-park_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Energy stake Park:Basics",
+        "id": "energy-skate-park-basics",
+        "exec": "java -jar /opt/phet/physics/energy-skate-park-basics_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Fluid Pressure and Flow",
+        "id": "fluid-pressure-and-flow",
+        "exec": "java -jar /opt/phet/physics/fluid-pressure-and-flow_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Forces and Motion",
+        "id": "forces-and-motion",
+        "exec": "java -jar /opt/phet/physics/forces-and-motion_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Forces and Motion: Basics",
+        "id": "forces-and-motions-basics",
+        "exec": "java -jar /opt/phet/physics/forces-and-motion-basics_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Forces in 1 Dimension",
+        "id": "forces-in-1-dimension",
+        "exec": "java -jar /opt/phet/physics/forces-1d_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Friction",
+        "id": "friction",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-friction/friction_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Gravity and Orbits",
+        "id": "gravity-and-orbits",
+        "exec": "java -jar /opt/phet/physics/gravity-and-orbits_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Gravity Force Lab",
+        "id": "gravity-force-lab",
+        "exec": "java -jar /opt/phet/physics/gravity-force-lab_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Ladybug Motion 2D",
+        "id": "ladybug-motion-2d",
+        "exec": "java -jar /opt/phet/physics/ladybug-motion-2d_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Ladybug Revolution",
+        "id": "lady-bug-revolution",
+        "exec": "java -jar /opt/phet/physics/rotation_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Lunar Lander",
+        "id": "lunar-lander",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-lunar-lander/lunar-lander_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Masses & Springs",
+        "id": "masses-springs",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-mass-spring-lab/mass-spring-lab_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Maze Game",
+        "id": "maze-game",
+        "exec": "java -jar /opt/phet/physics/maze-game_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Motion in 2D",
+        "id": "motion-in-2d",
+        "exec": "java -jar /opt/phet/physics/motion-2d_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "The Moving Man",
+        "id": "moving-man",
+        "exec": "java -jar /opt/phet/physics/moving-man_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "My Solar System",
+        "id": "my-solar-system",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-my-solar-system/my-solar-system_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Normal Modes",
+        "id": "normal-mode",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-normal-modes/normal-modes_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Pendulum Lab",
+        "id": "pendulum-lab",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-pendulum-lab/pendulum-lab_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Projectile Motion",
+        "id": "projectile-motion",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-projectile-motion/projectile-motion_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "The Ramp",
+        "id": "the-ramp",
+        "exec": "java -jar /opt/phet/physics/the-ramp_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Ramp: Forces and Motion",
+        "id": "ramp-forces-and -motion",
+        "exec": "java -jar /opt/phet/physics/ramp-forces-and-motion_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Resonance",
+        "id": "resonance",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-resonance/resonance_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Torque",
+        "id": "torque",
+        "exec": "java -jar /opt/phet/physics/torque_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Density",
+        "id": "density",
+        "exec": "firefox --new-window file:///opt/phet/physics/phet-density/density_en.html",
+        "keywords":["",""]
+    },
+    {
+        "name": "Density",
+        "id": "Density",
+        "exec": "/opt/applications-bin/Density",
+        "keywords":["",""]
+    },
+    {
+        "name": "Step",
+        "id": "step",
+        "exec": "step",
+        "keywords":["",""]
+    }
+]

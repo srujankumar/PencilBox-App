@@ -1,0 +1,86 @@
+
+<div class="contents-view view">
+  <div class="header-content">
+        <a id="link" href="#/otherApps" class="otherApps">
+          <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+          <span class="otherAppText">Other apps</span>
+        </a>
+        <div class="search">
+            <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+            <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+        </div>
+          <a href="#/grades">
+              <img class="main-logo" src="images/logo.png" alt="logo">
+          </a>
+      </div>
+    <div class="subject-header">
+      <div class="gradeBlock">
+      <span class="gradeText">Grade</span>
+      <img class="gradeBlockImage" src="images/grades/{{current_grade}}.png">
+    </div>
+      <div class = "subjects-main">
+      <div ng-repeat="subject in subjects" class="header-icon">
+        <a ng-if="isNotCurrentSubject(subject.id)" class="icon"
+           style="background-image: url('images/subjects/{{subject.id}}.png')"
+           href="#/grades/{{current_grade}}/subject/{{subject.id}}/"></a>
+        <a ng-if="isCurrentSubject(subject.id)" class="icon"
+        style="background-image: url('images/subjects/{{subject.id}}.png'); background-color:#f7941e;"
+        href="#/grades/{{current_grade}}/subject/{{subject.id}}/"></a>
+        <a ng-if="isNotCurrentSubject(subject.id)" class="icon-text"
+           href="#/subjects/{{subject.id}}">{{subject.name}}</a>
+        <a ng-if="isCurrentSubject(subject.id)" class="icon-text" style="color:#f7941e;"
+           href="#/subjects/{{subject.id}}">{{subject.name}}</a>
+      </div>
+    </div>
+
+  </div>
+    <div class="clearfix"></div>
+    <div class="main-content">
+        <div class="chapters-container">
+            <div class="clearfix"></div>
+            <div id="side-menu">
+              <span class="listText">List of chapters</span>
+              <div ng-repeat="chapter in chapters" class="chapters-block">
+                <a ng-if="isNotCurrentChapter(chapter.id)"
+                style="background-image: url('images/topics/grey/g-{{chapter.id}}.png')"
+                href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/" class="img-class"></a>
+                <a ng-if="isCurrentChapter(chapter.id)"
+                style="background-image: url('images/topics/blue/b-{{chapter.id}}.png')"
+                href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/" class="img-class"></a>
+                <div class="chapters-block-text">
+                  <a ng-if="isNotCurrentChapter(chapter.id)"
+                   href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/"
+                   class="text-class">{{chapter.name}}</a>
+                   <a ng-if="isCurrentChapter(chapter.id)" style="color:#f7941e;"
+                   href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/"
+                   class="text-class">{{chapter.name}}</a>
+                 </div>
+                   <hr class="lines">
+              </div>
+              </div>
+        </div>
+        <div id="topics">
+          <div class="app-container">
+            <div class="app-container-header">
+              <img src="images/app.png" id="app-icon">
+              <span class="app-text">Applications</span>
+            </div>
+              <div ng-repeat="app in contents | filter : {type:'apps'} "  class="app-container-body"
+              ng-click="invokeCommand(app.exec)">
+                <a style="background-image: url('images/{{current_subject}}/{{app.id}}.png')" href="" class="app-img"></a>
+                <a  href="" class="text-block">{{app.name}}</a>
+                </div>
+          </div>
+          <div class="video-container">
+            <div class="video-container-header">
+              <img src="images/video.png" id="app-icon">
+              <span class="app-text">Multimedia</span>
+            </div>
+              <div ng-repeat="app in contents | filter : {type:'videos'} " class="app-container-body" ng-click="showOverlay( )">
+                <a style="background-image: url('images/{{current_subject}}/{{app.id}}.png')" href="" class="app-img"></a>
+                <a  href="" class="text-block">{{app.name}}</a>
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>

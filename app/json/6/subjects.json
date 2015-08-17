@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Physics",
+        "id":"physics",
+        "color": "#1c75bc",
+        "topics_present" : true
+    },
+    {
+        "name":"Maths",
+        "id":"mathematics",
+        "color": "#be1e2d",
+        "topics_present": false
+    },
+    {
+        "name":"Chemistry",
+        "id":"chemistry",
+        "color": "#f8941e",
+        "topics_present" : false
+    },
+    {
+        "name":"Biology",
+        "id":"biology",
+        "color": "#00a14b",
+        "topics_present" : false
+    },
+    {
+        "name":"English",
+        "id":"english",
+        "color": "#b51465",
+        "topics_present" : false
+    },
+    {
+        "name":"Social",
+        "id":"social",
+        "color": "#a97c50",
+        "topics_present" : false
+    }
+]

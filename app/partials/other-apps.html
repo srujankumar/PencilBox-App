@@ -1,0 +1,33 @@
+<div class="other-apps-view view">
+    <div class="header-content">
+          <a id="link" href="#/otherApps" class="otherApps">
+            <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+            <span class="otherAppText">Other apps</span>
+          </a>
+          <div class="search">
+              <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+              <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+          </div>
+            <a href="#/grades">
+                <img class="main-logo" src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="other-apps-content">
+          <div class="other-app-container">
+            <div class="other-app-container-header">
+              <img src="images/app.png" class="app-icon"/>
+              <span class="container-name">Other Applications</span>
+            </div>
+            <div class="apps-list">
+            <div class="app-details" ng-repeat="otherApp in otherApps">
+                <img src="images/otherapps/{{otherApp.id}}.png"/>
+                <div class="app-name">
+                  {{otherApp.name}}
+                </div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        
+</div>

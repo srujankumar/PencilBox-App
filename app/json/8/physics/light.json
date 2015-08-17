@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Bending Light",
+        "id": "bending-light",
+        "exec": "java -jar /opt/phet/physics/bending-light_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Molecules and Light",
+        "id": "molecules-and-lights",
+        "exec": "java -jar /opt/phet/physics/molecules-and-light_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Streching DNA",
+        "id": "streching-dna",
+        "exec": "java -jar /opt/phet/biology/stretching-dna_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Color Vision",
+        "id": "color-vision",
+        "exec": "java -jar /opt/phet/physics/color-vision_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Molecular Motors",
+        "id": "molecular-motors",
+        "exec": "java -jar /opt/phet/physics/molecular-motors_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Geometric Optics",
+        "id": "geometric-optics",
+        "exec": "java -jar /opt/phet/physics/geometric-optics_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Optical Tweezers and Applications",
+        "id": "quantum-tunneling- wave",
+        "exec": "java -jar /opt/phet/physics/quantum-tunneling_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Blackbody Spectrum",
+        "id": "black-body-spectrum",
+        "exec": "java -jar /opt/phet/physics/blackbody-spectrum_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Fourier: Making Waves",
+        "id": "fourier",
+        "exec": "java -jar /opt/phet/physics/fourier_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "The Greenhouse Effect",
+        "id": "greenhouse",
+        "exec": "java -jar /opt/phet/chemistry/greenhouse_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Lasers",
+        "id": "lasers",
+        "exec": "java -jar /opt/phet/physics/lasers_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Neon Lights & Other Discharge Lamps",
+        "id": "neon-lights-and-other-discharge-lamps",
+        "exec": "java -jar /opt/phet/chemistry/discharge-lamps_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Photoelectric Effect",
+        "id": "photoelectric-effect",
+        "exec": "java -jar /opt/phet/chemistry/photoelectric_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Radio Waves & Electromagnetic Fields",
+        "id": "radio-waves",
+        "exec": "java -jar /opt/phet/physics/radio-waves_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Wave Interference",
+        "id": "wave-interference",
+        "exec": "java -jar /opt/phet/physics/wave-interference_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Microwaves",
+        "id": "microwaves",
+        "exec": "java -jar /opt/phet/physics/microwaves_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Quantum Wave Interference ",
+        "id": "wave-interference",
+        "exec": "java -jar /opt/phet/chemistry/quantum-wave-interference_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Simplified MRI",
+        "id": "mri",
+        "exec": "java -jar /opt/phet/biology/mri_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Models of the Hydrogen Atom",
+        "id": "models-of-hydrogen-atom",
+        "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Beta Decay",
+        "id": "beta-decay",
+        "exec": "java -jar /opt/phet/chemistry/beta-decay_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Nuclear Fission",
+        "id": "nuclear-fission",
+        "exec": "java -jar /opt/phet/physics/nuclear-fission_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Alpha Decay",
+        "id": "alpha-decay",
+        "exec": "java -jar /opt/phet/chemistry/alpha-decay_en.jar",
+        "keywords":["",""] 
+    }
+]

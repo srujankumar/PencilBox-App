@@ -3,6 +3,7 @@
         "name": "Geo Gebra",
         "id": "geo-gebra",
         "exec": "geogebra",
+	"type":"apps",
         "subject": "mathematics",
         "keywords":["",""]
     },
@@ -67,28 +68,28 @@
         "id": "capacitor-lab",
         "exec": "java -jar /opt/phet/physics/capacitor-lab_en.jar",
         "subject": "physics",
-"keywords":["",""]
+        "keywords":["",""]
     },
     {
         "name": "Ohm's Law",
         "id": "ohms-law",
         "exec": "java -jar /opt/phet/physics/ohms-law_en.jar",
         "subject": "physics",
-"keywords":["",""]
+        "keywords":["",""]
     },
     {
         "name": "Battery-Resistor Circuit",
         "id": "battery-resistor",
         "exec": "java -jar /opt/phet/physics/battery-resistor-circuit_en.jar",
         "subject": "physics",
-"keywords":["",""]
+        "keywords":["",""]
     },
     {
         "name": "Resistance in a Wire",
         "id": "resistance-in-a-wire",
         "exec": "java -jar /opt/phet/physics/resistance-in-a-wire_en.jar",
         "subject": "physics",
-"keywords":["",""]
+        "keywords":["",""]
     },
     {
         "name": "Conductivity",

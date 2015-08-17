@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Capacitor Lab",
+        "id": "capacitor-lab",
+        "exec": "java -jar /opt/phet/physics/capacitor-lab_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Circuit Construction Kit (DC Only)",
+        "id": "circuit-construction- kit",
+        "exec": "java -jar /opt/phet/physics/circuit-construction-kit-dc_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Circuit Construction Kit (AC+DC)",
+        "id": "circuit-construction- kit",
+        "exec": "java -jar /opt/phet/physics/circuit-construction-kit-ac_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Ohm's Law",
+        "id": "ohms-law",
+        "exec": "java -jar /opt/phet/physics/ohms-law_en.jar",
+        "keywords":["",""]   
+    },
+    {
+        "name": "Battery-Resistor Circuit",
+        "id": "battery-resistor",
+        "exec": "java -jar /opt/phet/physics/battery-resistor-circuit_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Resistance in a Wire",
+        "id": "resistance-in-a-wire",
+        "exec": "java -jar /opt/phet/physics/resistance-in-a-wire_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Conductivity",
+        "id": "conductivity",
+        "exec": "java -jar /opt/phet/physics/conductivity_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Semiconductors",
+        "id": "semi-conductors",
+        "exec": "java -jar /opt/phet/physics/semiconductor_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "Circuit Construction Kit (AC+DC), Virtual Lab",
+        "id": "circuit-construction- kit",
+        "exec": "java -jar /opt/phet/physics/circuit-construction-kit-ac-virtual-lab_en.jar",
+        "keywords":["",""]   
+    },
+    {
+        "name": "Circuit Construction Kit (DC Only), Virtual Lab",
+        "id": "circuit-construction- kit",
+        "exec": "java -jar /opt/phet/physics/circuit-construction-kit-dc-virtual-lab_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Signal Circuit",
+        "id": "signal-circuit",
+        "exec": "java -jar /opt/phet/physics/signal-circuit_en.jar",
+        "keywords":["",""]  
+    }
+]

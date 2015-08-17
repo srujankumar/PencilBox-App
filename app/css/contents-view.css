@@ -1,0 +1,394 @@
+.contents-view .header-content {
+    background-color: #f1f2f2;
+    float:left;
+    height:110px;
+    width:100%;
+    border:1px solid #000;
+}
+.contents-view .header-content .main-logo {
+  width:250px;
+  float:left;
+}
+.otherApps
+{
+  margin-right: 120px;
+  margin-top: 25px;
+}
+.contents-view .subject-header{
+  border:1px solid #000;
+  width:auto;
+}
+/*.chapters-view .side-menu{
+  float: left;
+  display: inline-block;
+}*/
+/*.contents-view .chapters-block{
+  display:inline-block;
+  width:100%;
+}*/
+
+.otherAppImage{
+  width:30px;
+}
+.icon-text{
+  color:#f7941e;
+}
+.contents-view .subject-header .gradeBlock{
+  width:282px;
+  height:230px;
+  background-color:#6d6e71;
+}
+.contents-view .subject-header .gradeBlock .gradeBlockImage{
+  border:2px solid #fff;
+  border-radius:10px;
+  height:75px;
+  width:75px;
+  margin-top:6px;
+  margin-left:103px;
+}
+.contents-view .subject-header .gradeBlock .gradeText{
+  color:white;
+  padding-left: 114px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.contents-view .header-content .search {
+    display: inline-block;
+    padding: 20px;
+    margin-left:400px;
+}
+
+.contents-view .header-content .search input {
+    display: inline-block;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    font-family: sans-serif;
+    border: 1px solid #656467;
+    padding-left: 10px;
+    width:440px;
+    height:45px;
+    font-size:21px;
+}
+.contents-view .subjects-main{
+  margin-left:580px;
+}
+.check{
+  border:1px solid #000;
+}
+.contents-view .header-content .search button {
+    display: inline-block;
+    float: left;
+    background-image: url("../images/search.png");
+    border:none;
+    background-position: -5px -1px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+    background-size:80px 55px;
+    width:75px;
+    height:49px;
+}
+
+.contents-view .subject-header .header-icon{
+  float:left;
+  width:120px;
+  text-align:center;
+  display:block;
+  margin-top:-107px;
+
+}
+.contents-view .chapters-container {
+    width:260px;
+}
+.chapters-block{
+  display:inline-block;
+  width:100%;
+  float:left;
+}
+a.img-class
+{
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+  padding: 20px;
+  background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+.topics-block-text {
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+  float:left;
+}
+a.text-class
+{
+	text-decoration: none;
+	color: #6d6e71;
+	font-size: 19px;
+  position: relative;
+  float: left;
+	padding-top: 40px;
+}
+.lines
+{
+	color: #a7a9ac;
+	margin-left: 10%;
+	width: 80%;
+  margin-right: 10%;
+}
+.listText{
+  font-family:sans-serif;
+  font-size:20px;
+  padding-left:62px;
+}
+div#side-menu
+{
+	width: auto;
+  float: left;
+  display: inline-block;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+.contents-view .main-content .chapters-container {
+    width: 15%;
+}
+.app-container{
+  margin-top: 50px;
+  width: auto;
+  box-shadow: -6px 6px 10px 1px #888888;
+  border: 1px solid #000;
+}
+.app-text{
+  font-size:20px;
+  padding-left:10px;
+}
+#app-icon
+{
+  width:56px;
+  vertical-align:middle;
+  margin-top:12px;
+  margin-left:20px;
+}
+.contents-view .container-text{
+  font-size:20px;
+  font-weight:bold;
+  padding-left:100px;
+}
+#topics{
+  width:65%;
+  margin: 0 10% 0 10%;
+  float:left;
+}
+.contents-view div.app-block
+{
+	width: 200px;
+	float: left;
+	margin: 15px;
+	padding: 15px;
+}
+.contents-view .app-container-header
+{
+  border-bottom: 1px solid;
+  /* border: 1px solid #000; */
+  background-color: #f1f2f2;
+  height:75px;
+}
+.contents-view .app-container-body
+{
+    margin-top: 40px;
+    height: auto;
+    margin-left: 40px;
+    width: 300px;
+    display: inline-block;
+}
+.contents-view a.app-img
+{
+	background-color: #1c75bc;
+	background-image: url("../images/physics/balancing-act.png");
+	background-size: 250px 250px;
+	height: 250px;
+	width: 250px;
+	background-repeat:no-repeat;
+	background-position: center;
+	border-radius: 15px;
+	border: 1px solid;
+	display: inline-block;
+}
+.contents-view a.text-block
+{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #6d6e71;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding-top: 5px;
+	height: 20px;
+}
+.contents-view a#cg-text
+{
+	width: 152px;
+}
+.contents-view a#esp-text
+{
+	width: 166px;
+}
+.contents-view a#espb-text
+{
+	width: 166px;
+}
+.contents-view a#fpf-text
+{
+	width: 212px;
+}
+.contents-view a#fam-text
+{
+	width: 164px;
+}
+.contents-view a#famb-text
+{
+	width: 174px;
+}
+.contents-view a#fiod-text
+{
+	width: 194px;
+}
+.contents-view a#buoyancy-img
+{
+	background-image: url("../images/physics/buoyancy.png");
+}
+.contents-view a#cg-img
+{
+	background-image: url("../images/physics/calculus-grapher.png");
+}
+.contents-view a#cl-img
+{
+	background-image: url("../images/physics/collision-lab.png");
+}
+.contents-view a#esp-img
+{
+	background-image: url("../images/physics/energy-skate-park.png");
+}
+.contents-view a#espb-img
+{
+	background-image: url("../images/physics/energy-skate-park-basics.png");
+}
+.contents-view a#fpf-img
+{
+	background-image: url("../images/physics/fluid pressure and flow.png");
+}
+.contents-view a#fam-img
+{
+	background-image: url("../images/physics/forces and motion.png");
+}
+.contents-view a#famb-img
+{
+	background-image: url("../images/physics/forces and motions basics.png");
+}
+.contents-view a#fiod-img
+{
+	background-image: url("../images/physics/forces in 1 dimension.png");
+}
+.contents-view a#friction-img
+{
+	background-image: url("../images/physics/friction.png");
+}
+
+.contents-view a#gao-img
+{
+	background-image: url("../images/physics/gravity and orbits.png");
+}
+
+.contents-view a#gfl-img
+{
+	background-image: url("../images/physics/gravity force lab.png");
+}
+
+.contents-view a#lbm-img
+{
+	background-image: url("../images/physics/ladybug motion 2d.png");
+}
+
+.contents-view a#lbr-img
+{
+	background-image: url("../images/physics/lady bug revolution.png");
+}
+.contents-view a#ll-img
+{
+	background-image: url("../images/physics/lunar lander.png");
+}
+
+.contents-view a#mas-img
+{
+	background-image: url("../images/physics/masses & springs.png");
+}
+
+.contents-view a#mg-img
+{
+	background-image: url("../images/physics/maze game.png");
+}
+
+.contents-view a#mi2-img
+{
+	background-image: url("../images/physics/motion in 2d.png");
+}
+
+.contents-view a#tmm-img
+{
+	background-image: url("../images/physics/moving man.png");
+}
+
+.contents-view a#mss-img
+{
+	background-image: url("../images/physics/my solar system.png");
+}
+.contents-view a#nm-img
+{
+	background-image: url("../images/physics/normal mode.png");
+}
+.contents-view a#pl-img
+{
+	background-image: url("../images/physics/pendulum lab.png");
+}
+.contents-view a#pm-img
+{
+	background-image: url("../images/physics/projectile motion.png");
+}
+.contents-view a#tr-img
+{
+	background-image: url("../images/physics/the ramp.png");
+}
+.contents-view a#rfm-img
+{
+	background-image: url("../images/physics/ramp forces and motion.png");
+}
+.contents-view a#res-img
+{
+	background-image: url("../images/physics/resonance.png");
+}
+.contents-view a#torque-img
+{
+	background-image: url("../images/physics/torque.png");
+}
+.contents-view a#density-img
+{
+	background-image: url("../images/physics/density.png");
+}
+.contents-view a#step-img
+{
+	background-image: url("../images/physics/my sloar system.png");
+}
+.contents-view .video-container
+{
+  border:1px solid #000;
+  margin-top:45px;
+  box-shadow: -6px 6px 10px 1px #888888;
+}
+.contents-view .video-container-header
+{
+  border-bottom: 1px solid #000;
+  background-color: #f1f2f2;
+  height: 75px;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Blackbody Spectrum",
+        "id": "black-body-spectrum",
+        "exec": "java -jar /opt/phet/physics/blackbody-spectrum_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Friction",
+        "id": "friction",
+        "exec": "java -jar /opt/phet/physics/friction_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Ballons & Buoyancy",
+        "id": "ballons-buoyancy",
+        "exec": "java -jar /opt/phet/physics/balloons-and-buoyancy_en.jar",
+        "keywords":["",""]
+    },
+    {
+        "name": "The Greenhouse Effect",
+        "id": "greenhouse",
+        "exec": "java -jar /opt/phet/chemistry/greenhouse_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Microwaves",
+        "id": "microwaves",
+        "exec": "java -jar /opt/phet/physics/microwaves_en.jar",
+        "keywords":["",""]  
+    },
+    {
+        "name": "Reversible Reactions",
+        "id": "reversable-reactions",
+        "exec": "java -jar /opt/phet/chemistry/reversible-reactions_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "States of Matter",
+        "id": "states-of-matter",
+        "exec": "java -jar /opt/phet/chemistry/states-of-matter_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "States of Matter: Basics",
+        "id": "states-of-matter-basics",
+        "exec": "java -jar /opt/phet/chemistry/states-of-matter-basics_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Reactions & Rates",
+        "id": "reactions-and-rates",
+        "exec": "java -jar /opt/phet/chemistry/reactions-and-rates_en.jar",
+        "keywords":["",""] 
+    },
+    {
+        "name": "Gas Properties",
+        "id": "gas-properties",
+        "exec": "java -jar /opt/phet/physics/gas-properties_en.jar",
+        "keywords":["",""] 
+    }
+]

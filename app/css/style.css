@@ -5,18 +5,43 @@
 }
 .header-content {
     margin: auto;
+    /*margin-top:50px;*/
 }
 .main-content {
     height: auto;
+    /*margin-top:100px;*/
 }
 .clearfix {
     clear: both;
 }
-
+#link {
+  text-decoration:none;
+}
 .logo-header {
     margin: auto;
     width: 300px;
     padding: 20px;
+}
+.otherApps{
+  background-color:#1c75bc;
+  border-radius:4px;
+  width:129px;
+  height:41px;
+  float:right;
+  margin:auto;
+  margin-right:451px;
+}
+.otherAppImage{
+  vertical-align:middle;
+  width:33px;
+  padding-left:4px;
+  padding-top:5px;
+}
+.otherAppText{
+  color:white;
+  padding-top:3px;
+  padding-left:3px;
+  font-size:18px;
 }
 
 .logo-header img {
@@ -84,33 +109,46 @@
     margin: auto;
     display: block;
 }
-
-.main-content .subjects-container h2 {
+.grades-container{
+  width:1024px;
+  margin:auto;
+  display:block;
+}
+.grades-container h1{
+  font-family:sans-serif;
+  font-size:27px;
+  font-weight:bold;
+  text-decoration:none;
+  padding:20px 0px 0px 20px;
+}
+.main-content .subjects-container h1 {
     font-family: sans-serif;
     font-size: 25px;
     font-weight: normal;
     text-decoration: none;
     padding: 20px 0px 0px 20px;
 }
-
 .main-content .blocks {
     float: left;
+    background-color:#939598;
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin: 20px;
     padding: 5px;
     background-repeat: no-repeat;
     background-size: 120px 120px;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: sans-serif;
     font-size: 25px;
     color: white;
     text-decoration: none;
     text-align: center;
 }
-
+.blocks:hover{
+  background-color:#f7941e;
+}
 .main-content .blocks label {
     display: inline-block;
     padding-top: 205px;

@@ -1,0 +1,58 @@
+<div class="chapters-view view">
+  <div class="header-content">
+    <div class="header-content">
+          <a id="link" href="#/otherApps" class="otherApps">
+            <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+            <span class="otherAppText">Other apps</span>
+          </a>
+          <div class="search">
+              <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
+              <a href="#/search/{{keyword}}"><button id="search-icon"></button></a>
+          </div>
+            <a href="#/grades">
+                <img class="main-logo" src="images/logo.png" alt="logo">
+            </a>
+        </div>
+      </div>
+    <div class="subject-header">
+      <div class="gradeBlock">
+      <span class="gradeText">Grade</span>
+      <img class="gradeBlockImage" src="images/grades/{{current_grade}}.png">
+    </div>
+      <div class = "subjects-main">
+      <div ng-repeat="subject in subjects" class="header-icon">
+        <a ng-if="isNotCurrentSubject(subject.id)" class="icon"
+           style="background-image: url('images/subjects/{{subject.id}}.png')"
+           href="#/grades/{{current_grade}}/subject/{{subject.id}}/"></a>
+        <a ng-if="isCurrentSubject(subject.id)" class="icon"
+        style="background-image: url('images/subjects/{{subject.id}}.png'); background-color:#f7941e;"
+        href="#/grades/{{current_grade}}/subject/{{subject.id}}/"></a>
+        <a ng-if="isNotCurrentSubject(subject.id)" class="icon-text"
+           href="#/subjects/{{subject.id}}">{{subject.name}}</a>
+        <a ng-if="isCurrentSubject(subject.id)" class="icon-text" style="color:#f7941e;"
+           href="#/subjects/{{subject.id}}">{{subject.name}}</a>
+      </div>
+    </div>
+
+  </div>
+    <div class="clearfix"></div>
+    <div class="main-content">
+        <div class="chapters-container">
+            <div class="clearfix"></div>
+            <div id ="side-menu">
+              <span class="listText">List of chapters</span>
+              <div ng-repeat="chapter in chapters" class="chapters-block">
+                <a style="background-image: url('images/topics/grey/g-{{chapter.id}}.png')"
+                href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/" class="img-class"></a>
+                <div class="chapters-block-text">
+                  <a href="#/grades/{{current_grade}}/subject/{{current_subject}}/{{chapter.id}}/" class="text-class">
+                    {{chapter.name}}</a>
+                </div>
+                <hr class="lines">
+              </div>
+            </div>
+        </div>
+        <img class ="pointer1" src="images/arrow.png" alt="pointer">
+        <span class="pointerText">Select a chapter to get content</span>
+                    </div>
+            </div>

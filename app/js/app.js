@@ -2,27 +2,35 @@ var pencilBoxApp = angular.module('pencilBoxApp',['ngResource', 'ngRoute']);
 
 pencilBoxApp.config(['$routeProvider',function($routeProvider){
   "use strict";
-  $routeProvider.when('/subjects',{
+  $routeProvider.when('/grades',{
     templateUrl : 'partials/home-view.html',
+    controller: 'GradeListController'
+  })
+  .when('/grades/:gradeId', {
+    templateUrl: 'partials/subjects-view.html',
     controller: 'SubjectListController'
   })
-  .when('/subjects/:subjectId/subsections', {
-    templateUrl: 'partials/subsections-view.html',
-    controller: 'SubSectionListController'
+  .when('/grades/:gradeId/subject/:subjectId/',{
+    templateUrl: 'partials/chapters-view.html',
+    controller: 'ChapterListController'
   })
-  .when('/subjects/:subjectId', {
-    templateUrl: 'partials/apps-view.html',
-    controller: 'AppListController'
+  .when('/grades/:gradeId/subject/:subjectId/:chapterId/',{
+    templateUrl:'partials/contents-view.html',
+    controller:'ContentListController'
   })
-  .when('/subjects/:subjectId/:topicId', {
-    templateUrl: 'partials/topics-view.html',
-    controller: 'TopicListController'
+  .when('/grades/:gradeId/subject/:subjectId/:videoId/',{
+    templateUrl:'partials/contents-view.html',
+    controller:'ContentListController'
+  })
+  .when('/otherApps', {
+    templateUrl : 'partials/other-apps.html',
+    controller : 'OtherAppController'
   })
   .when('/search/:keyword', {
     templateUrl: 'partials/search-results-view.html',
     controller: 'SearchResultController'
   })
   .otherwise({
-    redirectTo: '/subjects'
+    redirectTo: '/grades'
   });
 }]);

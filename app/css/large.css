@@ -1,6 +1,96 @@
-.header-icon {
-    width: 120px;
+.subjects-view .header-content .main-logo, .chapters-view .header-content .main-logo{
+  width:250
+  float:left;
 }
+.subjects-view .header-content .search
+{
+  display:inline-block;
+  margin-left:200px;
+}
+.subjects-view .otherApps
+{
+  margin-right:110px;
+  margin-top:33px;
+}
+.subjects-view .subjects-main
+{
+  margin-left:400px;
+}
+.subjects-view .subject-header .gradeBlock
+{
+  width:271px;
+}
+.subjects-view .subject-header .gradeBlock .gradeText{
+  padding-left:111px;
+}
+.subjects-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:95px;
+}
+.subjects-view .subject-header .subjects-main, .chapters-view .subject-header .subjects-main
+{
+  margin-left:440px;
+}
+.subjects-view .clearfix .pointer, .subjects-view .clearfix .pointerText
+{
+  margin-left:586px;
+  padding-top:22px;
+}
+
+
+.chapters-view .subject-header .subjects-main .header-icon
+{
+  margin-top:-107px;
+}
+.chapters-view .subject-header .gradeBlock
+{
+  width:202px;
+}
+.chapters-view .subject-header .gradeBlock .gradeText{
+  padding-left:69px;
+}
+.chapters-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:58px;
+}
+.chapters-view .header-content .search
+{
+  display:inline-block;
+  padding:25px;
+  margin-left:200px;
+}
+.chapters-view .main-content .chapters-container .listText
+{
+  padding-left:31px;
+}
+
+
+
+
+.contents-view .subject-header .subjects-main
+{
+  margin-left:374px;
+}
+.contents-view .header-content .main-logo
+{
+  margin-top:-90px;
+}
+.contents-view .subject-header .gradeBlock
+{
+  width:202px;
+}
+.contents-view .subject-header .gradeBlock .gradeText{
+  padding-left:69px;
+}
+.contents-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:58px;
+}
+.contents-view .main-content .chapters-container .listText
+{
+  padding-left:31px;
+}
+
+
+
+
 
 .header-icon .icon {
     height: 80px;
@@ -12,100 +102,4 @@
 
 .header-icon .icon-text {
     font-size: 20px;
-}
-
-.subsection-view .header-content, .apps-view .header-content,
-.topics-view .header-content {
-    height: 245px;
-}
-
-.subsection-view .header-content .search, .apps-view .header-content .search,
-.topics-view .header-content .search {
-    padding: 10px;
-}
-
-.subsection-view .header-content .search input, .apps-view .header-content .search input,
-.topics-view .header-content .search input {
-    width: 400px;
-    height: 59px;
-    border-radius: 10px 0px 0px 10px;
-    font-size: 20px;
-    padding-left: 10px;
-}
-
-.subsection-view .header-content .search button, .apps-view .header-content .search button,
-.topics-view .header-content .search button {
-    background-size: 90px 63px;
-    width: 85px;
-    height: 63px;
-    background-position: -5px -1px;
-    border-radius: 0px 10px 10px 0px;
-    margin-left: -10px;
-}
-
-.subsection-view .main-content .blocks {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    padding: 5px;
-    background-size: 100px 100px;
-    font-size: 20px;
-}
-
-.subsection-view .main-content .blocks label {
-    padding-top: 160px;
-}
-
-.topics-view .main-content .blocks {
-    width: 200px;
-    height: 200px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 200px 200px;
-    font-size: 20px;
-}
-
-.topics-view .main-content .blocks label {
-    padding-top: 210px;
-}
-
-.apps-view .main-content .blocks {
-    width: 200px;
-    height: 200px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 200px 200px;
-    font-size: 20px;
-}
-
-.apps-view .main-content .blocks label {
-    padding-top: 210px;
-}
-
-.topics-view .main-content .subjects-container {
-    width: 65%;
-    margin: 0 8% 0 8%;
-}
-
-.side-menu
-{
-    width: 18%;
-}
-
-.topics-block .topics-block-img
-{
-    background-size: 60px 60px;
-    width: 60px;
-    height: 60px;
-    padding: 20px;
-}
-
-.topics-block-text {
-    height: 60px;
-    width: 100px;
-}
-
-.topics-block .topics-block-text a {
-    font-size: 19px;
-    padding-top: 40px;
 }

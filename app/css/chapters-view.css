@@ -1,0 +1,167 @@
+.chapters-view .header-content {
+    background-color: #f1f2f2;
+    float:left;
+    height:110px;
+    width:100%;
+    border-bottom:1px solid #000;
+}
+.chapters-view .header-content .main-logo {
+  width:250px;
+  float:left;
+}
+.otherApps
+{
+  margin-right: 350px;
+  margin-top: 25px;
+}
+.chapters-view .subject-header{
+  border:1px solid #000;
+}
+/*.chapters-view .side-menu{
+  float: left;
+  display: inline-block;
+}*/
+.chapter-view .chapters-block{
+  display:inline-block;
+}
+
+.otherAppImage{
+  width:30px;
+}
+.icon-text{
+  color:#f7941e;
+}
+.chapters-view .subject-header .gradeBlock{
+  width:285px;
+  height:230px;
+  background-color:#6d6e71;
+}
+.chapters-view .subject-header .gradeBlock .gradeBlockImage{
+  border:2px solid #fff;
+  border-radius:10px;
+  height:75px;
+  width:75px;
+  margin-top:6px;
+  margin-left:103px;
+}
+.chapters-view .subject-header .gradeBlock .gradeText{
+  color:white;
+  padding-left: 114px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.chapters-view .header-content .search {
+    display: inline-block;
+    padding: 20px;
+    margin-left:400px;
+}
+
+.chapters-view .header-content .search input {
+    display: inline-block;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    font-family: sans-serif;
+    border: 1px solid #656467;
+    padding-left: 10px;
+    width:440px;
+    height:45px;
+    font-size:21px;
+}
+.chapters-view .subjects-main{
+  margin-left:580px;
+}
+.check{
+  border:1px solid #000;
+}
+.chapters-view .header-content .search button {
+    display: inline-block;
+    float: left;
+    background-image: url("../images/search.png");
+    border:none;
+    background-position: -5px -1px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+    background-size:80px 55px;
+    width:75px;
+    height:49px;
+}
+
+.chapters-view .subject-header .header-icon{
+  float:left;
+  width:120px;
+  text-align:center;
+  display:block;
+  margin-top:-107px;
+
+}
+.chapters-view .chapters-container {
+    width:260px;
+}
+.chapters-view .chapters-block{
+  display:inline-block;
+  width:100%;
+  float:left;
+}
+a.img-class
+{
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+  padding: 20px;
+  background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: relative;
+	float: left;
+
+}
+
+.topics-block-text {
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+  float:left;
+}
+
+a.text-class
+{
+	text-decoration: none;
+	color: #6d6e71;
+	font-size: 19px;
+  position: relative;
+  float: left;
+	padding-top: 40px;
+}
+.lines
+{
+	color: #a7a9ac;
+	margin-left: 10%;
+	width: 80%;
+  margin-right: 10%;
+}
+.listText{
+  font-family:sans-serif;
+  font-size:20px;
+  padding-left:18px;
+}
+div#side-menu
+{
+	width: auto;
+  float: left;
+  display: inline-block;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+.chapters-view .main-content .chapters-container {
+    width: 15%;
+}
+.pointerText{
+  font-family:sans-serif;
+  font-size:24px;
+  font-weight:bold;
+}
+.pointer1{
+  margin-left:40px;
+  width:150px;
+  padding-top:180px;
+}

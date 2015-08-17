@@ -1,6 +1,111 @@
-.header-icon {
-    width: 90px;
+.subjects-view .header-content .main-logo, .chapters-view .header-content .main-logo{
+  width:230px;
+  float:left;
+  margin-top:-90px;
 }
+.subjects-view .header-content .search
+{
+  display:inline-block;
+  margin-left:338px;
+}
+.subjects-view .otherApps
+{
+  margin-right:110px;
+  margin-top:32px;
+}
+.subjects-view .subjects-main
+{
+  margin-left:400px;
+}
+.subjects-view .subject-header .header-icon
+{
+  margin-top:-94px;
+}
+.subjects-view .subject-header .gradeBlock
+{
+  width:187px;
+  height:115px;
+}
+.subjects-view .subject-header .gradeBlock .gradeText{
+  padding-left:68px;
+}
+.subjects-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:62px;
+  height:60px;
+  width:60px;
+}
+.subjects-view .subject-header .subjects-main, .chapters-view .subject-header .subjects-main
+{
+  margin-left:383px;
+}
+.subjects-view .clearfix .pointer, .subjects-view .clearfix .pointerText
+{
+  margin-left:586px;
+  padding-top:22px;
+}
+
+
+.chapters-view .subject-header .subjects-main .header-icon
+{
+  margin-top:-94px;
+}
+.chapters-view .subject-header .gradeBlock
+{
+  width:187px;
+  height:207px;
+}
+.chapters-view .subject-header .gradeBlock .gradeText{
+  padding-left:68px;
+}
+.chapters-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:62px;
+  height:60px;
+  width:60px;
+}
+.chapters-view .header-content .search
+{
+  display:inline-block;
+  padding:25px;
+  margin-left:383px;
+}
+.chapters-view .main-content .chapters-container .listText
+{
+  padding-left:31px;
+}
+
+
+
+
+.contents-view .subject-header .subjects-main .header-icon
+{
+  margin-top:-94px;
+}
+.contents-view .subject-header .subjects-main
+{
+  margin-left:374px;
+}
+.contents-view .header-content .main-logo
+{
+  margin-top:-90px;
+}
+.contents-view .subject-header .gradeBlock
+{
+  width:187px;
+  height:207px;
+}
+.contents-view .subject-header .gradeBlock .gradeText{
+  padding-left:68px;
+}
+.contents-view .subject-header .gradeBlock .gradeBlockImage{
+  margin-left:62px;
+  height:60px;
+  width:60px;
+}
+.contents-view .main-content .chapters-container .listText
+{
+  padding-left:31px;
+}
+
 
 .header-icon .icon {
     height: 60px;
@@ -8,119 +113,13 @@
     background-size: 40px 40px;
     border-radius: 30px;
     margin: 0px 15px 5px 15px;
+    float:none;
 }
 
 .header-icon .icon-text {
     font-size: 18px;
 }
-
-.subsection-view .header-content, .apps-view .header-content,
-.topics-view .header-content {
-    height: 220px;
-}
-
-.subsection-view .header-content .search, .apps-view .header-content .search,
-.topics-view .header-content .search {
-    padding: 10px;
-}
-
-.subsection-view .header-content .search input, .apps-view .header-content .search input,
-.topics-view .header-content .search input {
-    width: 300px;
-    height: 52px;
-    border-radius: 10px 0px 0px 10px;
-    font-size: 18px;
-    padding-left: 10px;
-}
-
-.subsection-view .header-content .search button, .apps-view .header-content .search button,
-.topics-view .header-content .search button {
-    background-size: 80px 56px;
-    width: 75px;
-    height: 56px;
-    background-position: -5px -1px;
-    border-radius: 0px 10px 10px 0px;
-    margin-left: -10px;
-}
-
-.subsection-view .main-content .blocks, .apps-view .main-content .blocks,
-.topics-view .main-content .blocks {
-    width: 160px;
-    height: 160px;
-    margin: 15px;
-    padding: 5px;
-    background-size: 70px 70px;
-    font-size: 16px;
-}
-
-.subsection-view .main-content .blocks label, .apps-view .main-content .blocks label
-.topics-view .main-content .blocks label {
-    padding-top: 130px;
-}
-
-.subsection-view .main-content .blocks {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    padding: 5px;
-    background-size: 100px 100px;
-    font-size: 20px;
-}
-
-.subsection-view .main-content .blocks label {
-    padding-top: 155px;
-}
-
-.topics-view .main-content .blocks {
-    width: 160px;
-    height: 160px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 160px 160px;
-    font-size: 18px;
-}
-
-.topics-view .main-content .blocks label {
-    padding-top: 170px;
-}
-
-.apps-view .main-content .blocks {
-    width: 160px;
-    height: 160px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 160px 160px;
-    font-size: 18px;
-}
-
-.apps-view .main-content .blocks label {
-    padding-top: 170px;
-}
-
-.topics-view .main-content .subjects-container {
-    width: 65%;
-    margin: 0 6% 0 6%;
-}
-
-.side-menu
+.pointer
 {
-    width: 20%;
-}
-
-.topics-block .topics-block-img
-{
-    background-size: 50px 50px;
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-}
-
-.topics-block-text {
-    height: 50px;
-    width: 100px;
-}
-
-.topics-block .topics-block-text a {
-    font-size: 18px;
-    padding-top: 40px;
+  margin-left:459px;
 }

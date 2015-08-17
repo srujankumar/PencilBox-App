@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+}
+.mask {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0 , 0.3);
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    overflow-x: hidden;
+    /*overflow-y: auto;*/
+}
+.mask .overlay-container .header {
+    margin: auto;
+    position: relative;
+    color: white;
+    font-size:40px;
+}
+.mask .header .close {
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+}
+.mask .overlay .container {
+    position: relative;
+}
+.mask .overlay .video {
+  width:100%;
+}

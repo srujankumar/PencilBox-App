@@ -4,28 +4,26 @@
             <img src="images/logo.png" alt="logo">
         </div>
         <div class="search">
-            <input type="text" ng-model="keyword" placeholder="Search app with subject, topic" />
-            <a href="#/search/{{keyword}}"><button></button></a>
+            <input type="text" ng-model="keyword" onkeypress="detectEnterKey(event)" placeholder="Search app with subject, topic" />
+            <a href="#/search/{{keyword}}" id="search-button"><button></button></a>
         </div>
-    </div>
+
+        <a id="link" href="#/otherApps" class="otherApps">
+          <img class="otherAppImage" src="images/otherapps.png" alt="otherApps"/>
+          <span class="otherAppText">Other apps</span>
+        </a>
 
     <div class="clearfix"></div>
     <div class="main-content">
-    <div class="subjects-container">
-        <h2 id="choose">Choose a subject</h2>
+    <div class="grades-container">
+        <h1 id="choose">Select your grade</h1>
         <div class="clearfix"></div>
-        <div ng-repeat="subject in subjects">
-            <a href="#/subjects/{{subject.id | lowercase}}{{subject.topics_present ? '/subsections': ''}}">
-                <div class="blocks" style="background-color:{{subject.color}};background-image:url('images/subjects/{{subject.id}}.png')">
-                    <label>{{subject.name}}</label>
-                </div>
+        <div ng-repeat="grade in grades">
+            <a  class="blocks" href="#/grades/{{grade.id | lowercase}}"
+              style="background-image:url('images/grades/{{grade.id}}.png')">
+
             </a>
-
         </div>
-        <!--<div ng-repeat="subject in subjects" id="buttons-{{subject.name | lowercase}}-block">
-            <a href="#/subjects/{{subject.topics_present ? '': 'single/'}}{{subject.name}}" class="phy" id="{{subject.name | lowercase}}">{{subject.name}}</a>
-        </div>-->
-
     </div>
     </div>
 </div>
