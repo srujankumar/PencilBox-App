@@ -27,7 +27,7 @@ pencilBoxApp.factory('Contents', ['$resource',
     }]);
 pencilboxApp.factory('Apps', ['$resource',
       function($resource){
-        return $resource('json/all.json', {}, {
+        return $resource('json/OtherApps.json', {}, {
           query: {method:'GET', isArray:true }
         });
       }]);
