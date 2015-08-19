@@ -71,8 +71,11 @@ pencilBoxApp.controller('ContentListController', ['$scope', '$routeParams', 'Con
       function($scope, OtherApps) {
         $scope.otherApps = OtherApps.query();
       }]);
-  pencilBoxApp.controller('SearchResultController', ['$scope', '$routeParams', 'OtherApps',
-    function($scope, $routeParams, OtherApps) {
+  pencilBoxApp.controller('SearchResultController', ['$scope', '$routeParams', 'Apps',
+    function($scope, $routeParams, Apps) {
       $scope.keyword = $routeParams.keyword;
-      $scope.apps = OtherApps.query();
+      $scope.apps = Apps.query();
+      $scope.invokeCommand = function(command) {
+      CommandApi.invokeCommand(command);
+    };
   }]);

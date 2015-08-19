@@ -1,4 +1,3 @@
-var pencilboxApp = angular.module('pencilboxApp', ['ngResource']);
 "use strict";
 
 pencilBoxApp.factory('Grades', ['$resource',
@@ -25,9 +24,9 @@ pencilBoxApp.factory('Contents', ['$resource',
         query: {method: 'GET', isArray:true }
       });
     }]);
-pencilboxApp.factory('Apps', ['$resource',
+pencilBoxApp.factory('Apps', ['$resource',
       function($resource){
-        return $resource('json/OtherApps.json', {}, {
+        return $resource('json/all.json', {}, {
           query: {method:'GET', isArray:true }
         });
       }]);
