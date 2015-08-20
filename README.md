@@ -1,7 +1,7 @@
-# PencilBox - Installation
+# PencilBox
 
 ## Dependencies
-1. Install bower
+1. bower
 
 ##Installation
 
