@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Blackbody Spectrum",
+    "id": "black-body-spectrum",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/blackbody-spectrum_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Eating & Exercise",
+    "id": "eating-exercise",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/biology/eating-and-exercise_en.jar",
+    "subject": "biology",
+    "keywords":["",""]
+}
+]

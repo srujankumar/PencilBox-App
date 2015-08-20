@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Forces and Motion",
+    "id": "forces-and-motion",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/forces-and-motion_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Build an Atom",
+    "id": "build-an-atom",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/build-an-atom_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Rutherford Scattering",
+    "id": "rutherfford-scattering",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/rutherford-scattering_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Models of the Hydrogen Atom",
+    "id": "models-of-hydrogen-atom",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+      "name": "Isotopes & Atomic Mass",
+      "id": "isotopes-and-atomic mass",
+      "type":"apps",
+      "exec": "java -jar /opt/phet/chemistry/isotopes-and-atomic-mass_en.jar",
+      "subject": "chemistry",
+      "keywords":["",""]
+  }
+]

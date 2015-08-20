@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Gravity and Orbits",
+    "id": "gravity-and-orbits",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/gravity-and-orbits_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Gravity Force Lab",
+    "id": "gravity-force-lab",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/gravity-force-lab_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Freefall Tower",
+    "id": "freefall-tower",
+    "type":"apps",
+    "exec": "/opt/applications-bin/freefalltower",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

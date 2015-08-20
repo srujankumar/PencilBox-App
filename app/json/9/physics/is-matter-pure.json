@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Salts & Solubility",
+    "id": "salts-solubility",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/soluble-salts_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Concentration",
+    "id": "concentration",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/concentration_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
+]

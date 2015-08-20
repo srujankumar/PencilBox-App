@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Models of the Hydrogen Atom",
+    "id": "models-of-hydrogen-atom",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
+]

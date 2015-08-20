@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Bending Light",
+    "id": "bending-light",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/bending-light_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

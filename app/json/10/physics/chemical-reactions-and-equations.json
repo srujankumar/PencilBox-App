@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Balancing Chemical Equations",
+        "id": "balancing-chemical-equations",
+        "type":"apps",
+        "exec": "java -jar /opt/phet/chemistry/balancing-chemical-equations_en.jar",
+        "subject": "chemistry",
+        "keywords":["",""]
+    },
+    {
+        "name": "Reactants, Products and Leftovers",
+        "id": "reactants-products-leftovers",
+        "type":"apps",
+        "exec": "java -jar /opt/phet/chemistry/reactants-products-and-leftovers_en.jar",
+        "subject": "chemistry",
+        "keywords":["",""]
+    },
+    {
+        "name": "Kalzium",
+        "id": "kalzium",
+        "exec": "kalzium",
+        "type":"apps",
+        "subject": "chemistry",
+        "keywords":["",""]
+    }
+]

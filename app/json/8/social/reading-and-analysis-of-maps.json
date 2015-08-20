@@ -1,0 +1,10 @@
+[
+  {
+    "name": "K Geography",
+    "id": "kgeography",
+    "type":"apps",
+    "exec": "kgeography",
+    "subject": "social",
+    "keywords":["",""]
+}
+]

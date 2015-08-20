@@ -1,0 +1,10 @@
+[
+  {
+    "name": "States of Matter: Basics",
+    "id": "states-of-matter-basics",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/states-of-matter-basics_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
+]

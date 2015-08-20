@@ -1,50 +1,42 @@
 [
     {
-        "name": "Circuit",
-        "id": "circuit"
-    },
-    {
-        "name": "Electricity",
-        "id": "electricity"
-    },
-    {
-        "name": "Energy",
-        "id": "energy"
-    },
-    {
-        "name": "Heat",
-        "id": "heat"
-    },
-    {
-        "name": "Light",
-        "id": "light"
-    },
-    {
-        "name": "Magnet",
-        "id": "magnet"
+        "name": "Matter Around Us",
+        "id": "matter-around-us"
     },
     {
         "name": "Motion",
         "id": "motion"
     },
     {
-        "name": "Planetarium",
-        "id": "planetarium"
+        "name": "Laws of Motion",
+        "id": "laws-of-motion"
     },
     {
-        "name": "Quantum Phenomena",
-        "id": "qphenomena"
+        "name": "Is Matter Pure",
+        "id": "is-matter-pure"
     },
     {
-        "name": "Radiation",
-        "id": "radiation"
+        "name": "Atoms & Molecules",
+        "id": "atoms-and-molecules"
+    },
+    {
+        "name": "What is Inside the Atom",
+        "id": "what-is-inside-the-atom"
+    },
+    {
+        "name": "Gravitation",
+        "id": "gravitation"
+    },
+    {
+        "name": "Floating Bodies",
+        "id": "floating-bodies"
+    },
+    {
+        "name": "Work and Energy",
+        "id": "work-and-energy"
     },
     {
         "name": "Sound",
         "id": "sound"
-    },
-    {
-        "name": "Waves",
-        "id": "waves"
     }
 ]

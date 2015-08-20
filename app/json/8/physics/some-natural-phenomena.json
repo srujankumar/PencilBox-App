@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Balloons and Static Electricity",
+    "id": "balloons-static-energy",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/balloons_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

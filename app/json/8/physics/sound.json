@@ -1,8 +1,10 @@
 [
-    {
-        "name": "Sound",
-        "id": "sound",
-        "exec": "java -jar /opt/phet/chemistry/sound_en.jar",
-        "keywords":["",""] 
-    }
+  {
+    "name": "Sound",
+    "id": "sound",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/sound_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
 ]

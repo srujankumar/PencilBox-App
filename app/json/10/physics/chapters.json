@@ -1,50 +1,34 @@
 [
     {
-        "name": "Circuit",
-        "id": "circuit"
-    },
-    {
-        "name": "Electricity",
-        "id": "electricity"
-    },
-    {
-        "name": "Energy",
-        "id": "energy"
-    },
-    {
         "name": "Heat",
         "id": "heat"
     },
     {
-        "name": "Light",
-        "id": "light"
+        "name": "Chemical Reactions & Equations",
+        "id": "chemical-reactions-and-equations"
     },
     {
-        "name": "Magnet",
-        "id": "magnet"
+        "name": "Reflection of Light",
+        "id": "reflection-of-light"
     },
     {
-        "name": "Motion",
-        "id": "motion"
+        "name": "Acids, Bases & Salts",
+        "id": "acids-bases-and-salts"
     },
     {
-        "name": "Planetarium",
-        "id": "planetarium"
+        "name": "Refraction of Light at Plane Surfaces",
+        "id": "refraction-of-light-at-plane-surfaces"
     },
     {
-        "name": "Quantum Phenomena",
-        "id": "qphenomena"
+        "name": "Refraction of Light at Curved Surfaces",
+        "id": "refraction-of-light-at-curved-surfaces"
     },
     {
-        "name": "Radiation",
-        "id": "radiation"
+        "name": "Human Eye & World",
+        "id": "human-eye-and-world"
     },
     {
-        "name": "Sound",
-        "id": "sound"
-    },
-    {
-        "name": "Waves",
-        "id": "waves"
+        "name": "Structure of Atom",
+        "id": "structure-of-atom"
     }
 ]

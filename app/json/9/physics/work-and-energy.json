@@ -1,0 +1,26 @@
+[
+  {
+    "name": "The Ramp",
+    "id": "the-ramp",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/the-ramp_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Energy stake Park",
+    "id": "energy-skate-park",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/energy-skate-park_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Masses & Springs",
+    "id": "masses-springs",
+    "type":"apps",
+    "exec": "firefox --new-window file:///opt/phet/physics/phet-mass-spring-lab/mass-spring-lab_en.html",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

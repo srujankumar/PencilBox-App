@@ -1,8 +1,0 @@
-[
-	{
-		"name": "Radiating Charge",
-        "id": "radiating-charge",
-        "exec": "java -jar /opt/phet/physics/radiating-charge_en.jar",
-        "keywords":["",""]
-	}
-]

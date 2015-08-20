@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kalzium",
+    "id": "kalzium",
+    "exec": "kalzium",
+    "type":"apps",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Balancing Chemical Equations",
+    "id": "balancing-chemical-equations",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/balancing-chemical-equations_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Reactions & Rates",
+    "id": "reactions-and-rates",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/reactions-and-rates_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

@@ -4,7 +4,7 @@
         "id": "geo-gebra",
         "exec": "geogebra",
         "subject": "mathematics",
-        "keywords":["",""], "type":"videos"
+        "keywords":["",""], "type":"apps"
     },
     {
         "name": "Tux Math",
@@ -18,7 +18,7 @@
         "id": "KBruch",
         "exec": "kbruch",
         "subject": "mathematics",
-        "keywords":["",""], "type":"videos"
+        "keywords":["",""], "type":"apps"
     },
     {
         "name": "Balloons and Static Electricity",
@@ -39,7 +39,7 @@
         "id": "electric-field-hockey",
         "exec": "java -jar /opt/phet/physics/electric-hockey_en.jar",
         "subject": "physics",
-        "keywords":["",""], "type":"apps"
+"keywords":["",""], "type":"apps"
     },
     {
         "name": "Charges and Fields",
@@ -67,28 +67,28 @@
         "id": "capacitor-lab",
         "exec": "java -jar /opt/phet/physics/capacitor-lab_en.jar",
         "subject": "physics",
-        "keywords":["",""], "type":"apps"
+"keywords":["",""], "type":"apps"
     },
     {
         "name": "Ohm's Law",
         "id": "ohms-law",
         "exec": "java -jar /opt/phet/physics/ohms-law_en.jar",
         "subject": "physics",
-        "keywords":["",""], "type":"apps"
+"keywords":["",""], "type":"apps"
     },
     {
         "name": "Battery-Resistor Circuit",
         "id": "battery-resistor",
         "exec": "java -jar /opt/phet/physics/battery-resistor-circuit_en.jar",
         "subject": "physics",
-        "keywords":["",""], "type":"apps"
+"keywords":["",""], "type":"apps"
     },
     {
         "name": "Resistance in a Wire",
         "id": "resistance-in-a-wire",
         "exec": "java -jar /opt/phet/physics/resistance-in-a-wire_en.jar",
         "subject": "physics",
-        "keywords":["",""], "type":"apps"
+"keywords":["",""], "type":"apps"
     },
     {
         "name": "Conductivity",
@@ -98,14 +98,14 @@
 "keywords":["",""], "type":"apps"
     },
     {
-        "name": "Circuit Construction Kit (AC+DC)",
+        "name": "Circuit Construction Kit (AC+DC), Virtual Lab",
         "id": "circuit-construction- kit",
         "exec": "java -jar /opt/phet/physics/circuit-construction-kit-ac-virtual-lab_en.jar",
         "subject": "physics",
 "keywords":["",""], "type":"apps"
     },
     {
-        "name": "Circuit Construction Kit (DC Only)",
+        "name": "Circuit Construction Kit (DC Only), Virtual Lab",
         "id": "circuit-construction- kit",
         "exec": "java -jar /opt/phet/physics/circuit-construction-kit-dc-virtual-lab_en.jar",
         "subject": "physics",
@@ -692,13 +692,13 @@
       "subject": "chemistry",
   "keywords":["",""], "type":"apps"
   },
-  {
-      "name": "Models of the Hydrogen Atom",
-      "id": "models-of-hydrogen-atom",
-      "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
-      "subject": "chemistry",
-  "keywords":["",""], "type":"apps"
-  },
+	  {
+	      "name": "Models of the Hydrogen Atom",
+	      "id": "models-of-hydrogen-atom",
+	      "exec": "java -jar /opt/phet/chemistry/hydrogen-atom_en.jar",
+	      "subject": "chemistry",
+	  "keywords":["",""], "type":"apps"
+	  },
   {
       "name": "Plinko Probability",
       "id": "plinko",
@@ -949,7 +949,7 @@
       "id": "area-builder",
       "exec": "firefox --new-window /opt/phet/maths/area-builder_en.html",
       "subject": "mathematics",
-        "keywords":["",""], "type":"apps"
+  "keywords":["",""], "type":"apps"
   },
   {
       "name": "Arithmetic",

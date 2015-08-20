@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Color Vision",
+    "id": "color-vision",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/color-vision_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+}
+]

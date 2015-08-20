@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Area Builder",
+    "id": "area-builder",
+    "type":"apps",
+    "exec": "firefox --new-window /opt/phet/maths/area-builder_en.html",
+    "subject": "mathematics",
+    "keywords":["",""]
+}
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Friction",
+    "id": "friction",
+    "type":"apps",
+    "exec": "firefox --new-window file:///opt/phet/physics/phet-friction/friction_en.html",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Ramp: Forces and Motion",
+    "id": "ramp-forces-and -motion",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/ramp-forces-and-motion_en.jar",
+    "subject": "physics",
+  "keywords":["",""]
+  }
+]

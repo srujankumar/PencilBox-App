@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Geometric Optics",
+    "id": "geometric-optics",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/geometric-optics_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+}
+]

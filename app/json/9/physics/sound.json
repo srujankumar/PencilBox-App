@@ -1,8 +1,18 @@
 [
-    {
-        "name": "Sound",
-        "id": "sound",
-        "exec": "java -jar /opt/phet/chemistry/sound_en.jar",
-        "keywords":["",""] 
-    }
+  {
+    "name": "Sound",
+    "id": "sound",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/sound_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Wave on a String",
+    "id": "wave-on-a-string",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/wave-on-a-string_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
 ]

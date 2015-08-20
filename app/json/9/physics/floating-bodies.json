@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Density",
+    "id": "density",
+    "type":"apps",
+    "exec": "firefox --new-window file:///opt/phet/physics/phet-density/density_en.html",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Buoyancy",
+    "id": "buoyancy",
+    "type":"apps",
+    "exec": "firefox --new-window file:///opt/phet/physics/phet-buoyancy/buoyancy_en.html",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Under Pressure",
+    "id": "under-pressure",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/under-pressure_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
+]

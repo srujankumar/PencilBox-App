@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ramp: Forces and Motion",
+    "id": "ramp-forces-and -motion",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/ramp-forces-and-motion_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Gravity Force Lab",
+    "id": "gravity-force-lab",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/physics/gravity-force-lab_en.jar",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Collision Lab",
+    "id": "collision-lab",
+    "type":"apps",
+    "exec": "firefox --new-window file:///opt/phet/physics/phet-collision-lab/collision-lab_en.html",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]

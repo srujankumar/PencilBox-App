@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Build a Molecule",
+    "id": "build-a-molecule",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/chemistry/build-a-molecule_en.jar",
+    "subject": "chemistry",
+    "keywords":["",""]
+  },
+  {
+    "name": "Element Builder",
+    "id": "element-builder",
+    "type":"apps",
+    "exec": "chromium-browser --app=file:///opt/phet/chemistry/ElementBuilder/index.html",
+    "subject": "chemistry",
+    "keywords":["",""]
+  }
+]

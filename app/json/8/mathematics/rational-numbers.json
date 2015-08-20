@@ -1,0 +1,10 @@
+[
+  {
+    "name": "KBruch",
+    "id": "KBruch",
+    "type":"apps",
+    "exec": "kbruch",
+    "subject": "mathematics",
+    "keywords":["",""]
+  }  
+]

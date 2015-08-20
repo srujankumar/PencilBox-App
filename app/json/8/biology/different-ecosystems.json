@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Natural Selection",
+    "id": "natural-selection",
+    "type":"apps",
+    "exec": "java -jar /opt/phet/biology/natural-selection_en.jar",
+    "subject": "biology",
+    "keywords":["",""]
+}
+]

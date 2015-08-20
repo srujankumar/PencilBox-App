@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Stellarium",
+    "id": "stellarium",
+    "type":"apps",
+    "exec": "stellarium",
+    "subject": "physics",
+    "keywords":["",""]
+  },
+  {
+    "name": "Celestia",
+    "id": "celestia",
+    "type":"apps",
+    "exec": "celestia",
+    "subject": "physics",
+    "keywords":["",""]
+  }
+]
