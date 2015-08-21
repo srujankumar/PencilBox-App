@@ -1,6 +1,9 @@
-.otherApps{
-  margin-right:70px;
-  margin-top:25px;
+.other-apps-view .header-content .main-logo {
+  margin-top:-90px;
+}
+.other-apps-view .header-content .search
+{
+  margin-left:244px;
 }
 .subjects-view .header-content .main-logo, .chapters-view .header-content .main-logo{
   width:230px;
@@ -10,11 +13,15 @@
 .subjects-view .header-content .search
 {
   display:inline-block;
-  margin-left:400px;
+  margin-left:282px;
 }
 .subjects-view .otherApps
 {
-  margin-right:28px;
+  margin-right:20px;
+}
+.otherApps
+{
+  margin-right:20px;
   margin-top:32px;
 }
 .subjects-view .subjects-main
@@ -40,7 +47,7 @@
 }
 .subjects-view .subject-header .subjects-main, .chapters-view .subject-header .subjects-main
 {
-  margin-left:383px;
+  margin-left:251px;
 }
 .subjects-view .clearfix .pointer, .subjects-view .clearfix .pointerText
 {
@@ -55,7 +62,7 @@
 }
 .chapters-view .subject-header .gradeBlock
 {
-  width:200px;
+  width:187px;
   height:207px;
 }
 .chapters-view .subject-header .gradeBlock .gradeText{
@@ -70,23 +77,23 @@
 {
   display:inline-block;
   padding:25px;
-  margin-left:388px;
+  margin-left:265px;
 }
 .chapters-view .main-content .chapters-container .listText
 {
   padding-left:31px;
 }
 
-
-
-
+.contents-view .header-content .search {
+  margin-left:274px;
+}
 .contents-view .subject-header .subjects-main .header-icon
 {
   margin-top:-94px;
 }
 .contents-view .subject-header .subjects-main
 {
-  margin-left:374px;
+  margin-left:280px;
 }
 .contents-view .header-content .main-logo
 {
@@ -94,7 +101,7 @@
 }
 .contents-view .subject-header .gradeBlock
 {
-  width:200px;
+  width:187px;
   height:207px;
 }
 .contents-view .subject-header .gradeBlock .gradeText{
@@ -109,8 +116,12 @@
 {
   padding-left:31px;
 }
-
-
+div#side-menu{
+  width:116%;
+}
+div#topics{
+  width:61%;
+}
 .header-icon .icon {
     height: 60px;
     width: 60px;
@@ -125,5 +136,5 @@
 }
 .pointer
 {
-  margin-left:459px;
+  margin-left:400px;
 }

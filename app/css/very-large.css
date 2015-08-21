@@ -13,98 +13,16 @@
 .header-icon .icon-text {
     font-size: 20px;
 }
-
-.subsection-view .header-content, .apps-view .header-content, .topics-view .header-content {
-    height: 250px;
+.otherApps{
+  margin-right:120px;
+  margin-top:25px;
 }
-
-.subsection-view .header-content .search, .apps-view .header-content .search,
-.topics-view .header-content .search {
-    padding: 10px;
+.contents-view .subject-header .gradeBlock {
+  width: 247px;
 }
-
-.subsection-view .header-content .search input, .apps-view .header-content .search input,
-.topics-view .header-content .search input {
-    width: 500px;
-    height: 66px;
-    border-radius: 10px 0px 0px 10px;
-    font-size: 20px;
-    padding-left: 10px;
+.chapters-view .subject-header .gradeBlock {
+  width:247px;
 }
-
-.subsection-view .header-content .search button, .apps-view .header-content .search button,
-.topics-view .header-content .search button {
-    background-size: 100px 70px;
-    width: 95px;
-    height: 70px;
-    background-position: -5px -1px;
-    border-radius: 0px 10px 10px 0px;
-    margin-left: -10px;
-}
-
-.topics-view .main-content .subjects-container {
-    width: 65%;
-    margin: 0 10% 0 10%;
-}
-
-.subsection-view .main-content .blocks {
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-    padding: 5px;
-    background-size: 120px 120px;
-    font-size: 25px;
-}
-
-.subsection-view .main-content .blocks label {
-    padding-top: 200px;
-}
-
-.topics-view .main-content .blocks {
-    width: 250px;
-    height: 250px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 250px 250px;
-    font-size: 20px;
-}
-
-.topics-view .main-content .blocks label {
-    padding-top: 260px;
-}
-
-.apps-view .main-content .blocks {
-    width: 250px;
-    height: 250px;
-    padding: 0px;
-    margin: 20px 20px 50px 20px;
-    background-size: 250px 250px;
-    font-size: 20px;
-}
-
-.apps-view .main-content .blocks label {
-    padding-top: 260px;
-}
-
-.side-menu
-{
-    width: 14%;
-}
-
-.topics-block .topics-block-img
-{
-    background-size: 60px 60px;
-    width: 60px;
-    height: 60px;
-    padding: 20px;
-}
-
-.topics-block-text {
-    height: 60px;
-    width: 100px;
-}
-
-.topics-block .topics-block-text a {
-    font-size: 19px;
-    padding-top: 40px;
+.subjects-view .header-content .main-logo {
+  margin-top:-90px;
 }
